@@ -28,3 +28,7 @@ In last week, we finalized with the technology and game engine. We will be using
 * To explore all functionalities of Greenfoot that can be incorporated in our project.
 * Design of User Story
 * Study of patterns that will be included in our project
+
+Week-3
+### What did the team do the past week?
+In last week, We started working on our idea like structuring the stages, level of difficulty of the game etc. We started learning our game engine i.e Greenfoot. So after learning basic things and functionality of greenfoot we started developing the basic prototype of the game link of which is given in README.md. Every team memeber has worked on the task assigned to them as per thr project need.  
