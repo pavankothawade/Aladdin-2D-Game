@@ -8,3 +8,9 @@ Week #2
 * As the project idea is decided, it's time to find out the resources and technologies that will be required to  complete the project. 
 * We discussed different technologies which are available and can be used to leverage our project and we decided to use Greenfoot.
 * Greenfoot is a Java development environment which is used to build graphical applications.
+
+Week #3
+* We developed a prototype for our game, while doing so we faced some issues like how to make the background dynamic, hence we assigned different tasks to every member in the group.
+* Each group member came up with different ideas and solution on how to change the background from static to dynamic.
+* Hence by communicating and discussing we tackled the issues and challenges that we were facing.
+
