@@ -14,5 +14,5 @@ In week 2, We came up with the idea of project which required courage to explore
 
 Week:3
 
-In week 3, We need to show courage in learning new game engine. We already have decided to structure 3 stages in our game so for this we need to have courage to learn many things and implement it. So after learning the basic things in our game engine i.e Greenfoot we came up with the basic prototype of our game link of which is given in README.md
+In week 3, We need to show courage in learning new game engine. We already have decided to structure 3 stages in our game so for this we need to have courage to learn many things and implement it. So after learning the basic things in our game engine i.e Greenfoot we came up with the basic prototype of our game link of which is given in README.md.
 
