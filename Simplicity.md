@@ -10,4 +10,7 @@ Week 2:
 
 Everyone started to pour on ideas of directly developing the application. But firstly we have to be precise with requirements so that we do not over-do things and complicate it. We just need to focus on first developing user stories clearly so as to go to next step of developing UML diagrams.
 
-	
+
+Week 3:
+
+After communicating within team and with Professor, it became clear that we cannot have a generalized user story. Rather, we need to have different user stories for each thing individually like actor and hurdle. Also we understood there is no need to parallel develop the protocol, while not being clear with user story. So I have asked team to focus on development of user stories, and learning Greenfoot over directly starting to make application.
