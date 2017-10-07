@@ -31,4 +31,12 @@ In last week, we finalized with the technology and game engine. We will be using
 
 Week-3
 ### What did the team do the past week?
-In last week, We started working on our idea like structuring the stages, level of difficulty of the game etc. We started learning our game engine i.e Greenfoot. So after learning basic things and functionality of greenfoot we started developing the basic prototype of the game link of which is given in README.md. Every team memeber has worked on the task assigned to them as per thr project need.  
+In last week, We started working on our idea like structuring the stages, level of difficulty of the game etc. We started learning our game engine i.e Greenfoot. So after learning basic things and functionality of greenfoot we started developing the basic prototype of the game link of which is given in README.md. Every team member has worked on the task assigned to them as per thr project need.  
+
+### What is the team going to do next week?
+* Modify User stories according to changes discussed.
+* Creation of UML diagrams
+* Decide on hurdle functionality of the game.
+
+### What are the current blockers/challenges the team is facing?
+This week communication was biggest roadblock, since everyone was occupied with other project works. We have not been able to draft user stories around actor and game points. We are still trying to figure it out. Also designing UML diagrams will be a challenge.
