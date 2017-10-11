@@ -1,3 +1,4 @@
-As a Game point,
-I want to count seconds when actor is alive,
-so that I increase with multiple of 100 each second
+//Game point User story
+As a Game player,
+I want to increase my score as I over come the hurdles
+so that I can score maximum points.
