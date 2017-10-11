@@ -18,5 +18,5 @@ In week 3, We need to show courage in learning new game engine. We already have 
 
 Week: 4
 In week 4, We need to show courage to explore other things like methodologies and design patterns which we will be using in our peoject.
-Along with all this things we need to show courage in making rough sketch of our game levels so that we can get the exact idea of what we will be building
+Along with all this things we need to show courage in making rough sketch of our game levels so that we can get the exact idea of what we will be building.
 
