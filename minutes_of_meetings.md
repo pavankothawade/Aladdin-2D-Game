@@ -56,3 +56,8 @@ Pritam Meher
 	- Modification of user stories.
 	- Creation of UML diagrams for the game.
 	
+
+Week #4
+
+* Meeting was called to discuss progress related to user story and design patterns.
+* We also discussed about our experience at silicon Valley Code Camp.
