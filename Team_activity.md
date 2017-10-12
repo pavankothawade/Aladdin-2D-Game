@@ -40,3 +40,7 @@ In last week, We started working on our idea like structuring the stages, level 
 
 ### What are the current blockers/challenges the team is facing?
 This week communication was biggest roadblock, since everyone was occupied with other project works. We have not been able to draft user stories around actor and game points. We are still trying to figure it out. Also designing UML diagrams will be a challenge.
+
+Week-4
+### What did the team do the past week?
+As we decided to work on user stories and and the rough sketch of the levels of the game, we did exactly the same in last week. WE have created few user stories for game player.We have divided the UML diagrams amongst us. Futher we talked on the hurdle functionality of the game.
