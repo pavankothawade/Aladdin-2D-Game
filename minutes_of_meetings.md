@@ -61,3 +61,5 @@ Week #4
 
 * Meeting was called to discuss progress related to user story and design patterns.
 * We also discussed about our experience at silicon Valley Code Camp.
+* Our meeting was based on design patterns and which pattern would be implemented by project members.
+* We also discussed few things related to midterm exams.
