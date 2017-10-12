@@ -43,4 +43,4 @@ This week communication was biggest roadblock, since everyone was occupied with 
 
 Week-4
 ### What did the team do the past week?
-As we decided to work on user stories and and the rough sketch of the levels of the game, we did exactly the same in last week. WE have created few user stories for game player.We have divided the UML diagrams amongst us. Futher we talked on the hurdle functionality of the game.
+As we decided to work on user stories and and the rough sketch of the levels of the game, we did exactly the same in last week. WE have created few user stories for game player.We have divided the UML diagrams amongst us. Futher we talked on the hurdle functionality of the game
