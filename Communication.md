@@ -17,3 +17,4 @@ Week #3
 Week #4
 * As we were developing user stories we met and discussed on how and what can be our possibilities.
 * We also discussed our experience at Silicon Valley Code Camp and what we learned from the sessions that we attended.
+* As we have our midterm, we connected with each other through conference calls and then we discussed the progress of the project. 
