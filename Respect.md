@@ -10,3 +10,10 @@ Week #2
 * Team members decided to search and explore the technologies to develop project.
 * Each team member came up with their research and shared information with others to help them understand.
 * Everyone in team shared their views and decided to go in detail of technology so that one can be finalized.
+
+Week #3
+
+* Team members dicussed on building user stories. Each member shared their views on the same. 
+* Team finalized on the technology in which project can be developed.
+* Each team member researched and explored technology and shared information with other members.
+* All members also discussed on UML diagrams.

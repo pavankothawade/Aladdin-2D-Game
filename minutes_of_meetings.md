@@ -37,3 +37,38 @@ Pritam Meher
 * Discussed User Stories that should be written.
 * Action Point for next week for Team,
      Getting acquainted to GreenFoot and developing a small prototype.
+
+Location: MLK Library
+Week #3
+
+As we could not meet face to face this week, we had a conference call on Wednesday 9 pm.
+
+Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
+
+*Decided on user stories
+*Finalized the rough sketches for the prototype
+*Verified and suggested modifications on user stories that are created
+*Action Plan for next week for Team,
+	- Modification of user stories.
+	- Creation of UML diagrams for the game.
+	
+
+Location: MLK Library
+Week #4
+
+* Meeting was called to discuss progress related to user story and design patterns.
+* We also discussed about our experience at silicon Valley Code Camp.
+* Our meeting was based on design patterns and which pattern would be implemented by project members.
+* We also discussed few things related to midterm exams.
+
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
