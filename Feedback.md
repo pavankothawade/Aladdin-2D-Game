@@ -8,4 +8,4 @@ Team developed the first working prototype using GreenFoot game engine. During w
 
 Week3:
 
-A round of feedback was taken regarding the intial prototype. Few points related to dynamic background and hurdle placing were discussed. In the next increment Team would work on changing the background dynamically.
+A round of feedback was taken regarding the intial prototype. Few points related to dynamic background and hurdle placing were discussed.In the next increment Team would work on changing the background dynamically.
