@@ -33,12 +33,12 @@ public class Aladdin extends Actor
         
        if(Greenfoot.isKeyDown("right")== true)
         {
-         setRotation(10);
+         setRotation(20);
         } 
         
         if(Greenfoot.isKeyDown("left")== true)
         {
-        setRotation(-10);
+        setRotation(-20);
         } 
         
         if(getY() > getWorld().getHeight()){

@@ -9,4 +9,4 @@ PURPOSE OF PROJECT: CMPE 202 Project
 VERSION or DATE:
 HOW TO START THIS PROJECT:
 AUTHORS: Vinit Singh
-USER INSTRUCTIONS: Use up and Right Arrow Keys
+USER INSTRUCTIONS: Use up and Right,Left Arrow Keys
