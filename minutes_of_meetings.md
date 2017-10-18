@@ -85,7 +85,7 @@ Pritam Meher
 In this meeting we discussed the design patterns we will need to implement in our project.
 So, to get further knowledge on design patterns we studied some design pattern suitable to our idea like chain of responsibility, Singleton, Command and observer pattern. We also watched some videos to get the idea of design patterns.
 We decided to study design patterns in more detail so that everyone can come up with one design pattern which they are going to implement in project. Further we discussed on the agile methodology and how we can implement it in better way in our project.
-We also decided to meet again in this week to discuss the further details and study more as we didn’t get time to study in last week because of midterms
+We also decided to meet again in this week to discuss the further details and study more as we didn’t get time to study in last week because of midterms.
 
 
 
