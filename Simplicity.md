@@ -14,3 +14,7 @@ Everyone started to pour on ideas of directly developing the application. But fi
 Week 3:
 
 After communicating within team and with Professor, it became clear that we cannot have a generalized user story. Rather, we need to have different user stories for each thing individually like actor and hurdle. Also we understood there is no need to parallel develop the protocol, while not being clear with user story. So I have asked team to focus on development of user stories, and learning Greenfoot over directly starting to make application.
+
+Week 4:
+
+There were ideas floating as to how different and descriptive user stories can be. We have sticked to simple format for user stories with fulfilling the three basic parameters: " ' As a <user>', 'I want to <> ','so that <> '" format.for each object involved in the user stories.

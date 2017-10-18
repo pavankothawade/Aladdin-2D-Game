@@ -38,6 +38,7 @@ Pritam Meher
 * Action Point for next week for Team,
      Getting acquainted to GreenFoot and developing a small prototype.
 
+Location: MLK Library
 Week #3
 
 As we could not meet face to face this week, we had a conference call on Wednesday 9 pm.
@@ -57,7 +58,38 @@ Pritam Meher
 	- Creation of UML diagrams for the game.
 	
 
+Location: MLK Library
 Week #4
 
 * Meeting was called to discuss progress related to user story and design patterns.
 * We also discussed about our experience at silicon Valley Code Camp.
+* Our meeting was based on design patterns and which pattern would be implemented by project members.
+* We also discussed few things related to midterm exams.
+
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
+
+Location: MLK Library
+Week#5
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
+
+In this meeting we discussed the design patterns we will need to implement in our project.
+So, to get further knowledge on design patterns we studied some design pattern suitable to our idea like chain of responsibility, Singleton, Command and observer pattern. We also watched some videos to get the idea of design patterns.
+We decided to study design patterns in more detail so that everyone can come up with one design pattern which they are going to implement in project. Further we discussed on the agile methodology and how we can implement it in better way in our project.
+We also decided to meet again in this week to discuss the further details and study more as we didn’t get time to study in last week because of midterms
+
+
+
+
+
+
+*
