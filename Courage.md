@@ -21,5 +21,5 @@ In week 4, We need to show courage to explore other things like methodologies an
 Along with all this things we need to show courage in making rough sketch of our game levels so that we can get the exact idea of what we will be building.
 
 Week: 5
-In week 5, We need to show courage in study of design patterns. Everyone in team is studying design patterns which we need to implement in our project. Courage is the main factor which will play the important role in upcoming weeks.
+In week 5, We need to show courage in study of design patterns. Everyone in team is studying design patterns which we need to implement in our project. Courage is the main factor which will play the important role in upcoming weeks
 
