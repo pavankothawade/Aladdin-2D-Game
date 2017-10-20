@@ -17,3 +17,9 @@ Week #3
 * Team finalized on the technology in which project can be developed.
 * Each team member researched and explored technology and shared information with other members.
 * All members also discussed on UML diagrams.
+
+Week #4
+
+* Team members dicussed user stories for all objects involved in project. Each member discussed their views on the same.
+* All team member couldn't focus on project because of exams.
+* All members also discussed on Design Patterns.
