@@ -10,3 +10,6 @@ A round of feedback was taken regarding the intial prototype.Few points related 
 Week4:
 Feeback was taken on the User Stories developed. New User stories discussed and feedback regarding each user was taken.
 
+Week4:
+Team discussed about design pattern to be incorporated for the further development. Team discussed about the design pattern that can be included and a feeback from each team member helped us to understand more to which of the Design Patterns that can be selected and incorporated.
+
