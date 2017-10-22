@@ -47,7 +47,7 @@ As we decided to work on user stories and and the rough sketch of the levels of 
 
 ### What is the team going to do next week?
 * Team is going to study design patterns need to implement ot project.
-* Team is going to study in depth knowledge of greenfoot and try to extend the prototype of our game
+* Team is going to study in depth knowledge of greenfoot and try to extend the prototype of our game.
 * Team is going to find the images for the characters in our game so that we can include it in our game.
 
 ### What are the current blockers/challenges the team is facing?
