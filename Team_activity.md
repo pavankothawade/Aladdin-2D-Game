@@ -45,6 +45,23 @@ This week communication was biggest roadblock, since everyone was occupied with 
 ### What did the team do the past week?
 As we decided to work on user stories and and the rough sketch of the levels of the game, we did exactly the same in last week. WE have created few user stories for game player.We have divided the UML diagrams amongst us. Futher we talked on the hurdle functionality of the game
 
+### What is the team going to do next week?
+* Team is going to study design patterns need to implement ot project.
+* Team is going to study in depth knowledge of greenfoot and try to extend the prototype of our game
+* Team is going to find the images for the characters in our game so that we can include it in our game.
+
 ### What are the current blockers/challenges the team is facing?
 Last week all team member was occupied with midterms preparation so could't dedicate time towards project. 
 We have not been able to design UML diagrams last week. Also deciding on designing patterns will be a challenge to all members.
+
+# Week-5
+### What did the team do the past week?
+As we decided to work on study of design patterns so every team member have studied design patterns to some extent. As there are many of the design patterns so it will take some more time to study each design pattern. Team did some research on the images of the characters we are going to include in game. Along with this team has studied the greenfoot and have started extending the basic prtotype of the game.
+
+### What is the team going to do next week?
+* Team is going to study remaining design patterns need to implement in project.
+* Team is going to extend the prototype of our game.
+* Team will concentrate on the user stories and will try to extend previous user stories.
+
+### What are the current blockers/challenges the team is facing?
+The current blocker team is facing is about the design patterns. Team is not getting the exact idea of design patterns suitable to implement in our project. Team is trying its best to come up with  the final design patterns in next week.
