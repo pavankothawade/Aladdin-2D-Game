@@ -18,3 +18,7 @@ After communicating within team and with Professor, it became clear that we cann
 Week 4:
 
 There were ideas floating as to how different and descriptive user stories can be. We have sticked to simple format for user stories with fulfilling the three basic parameters: " ' As a <user>', 'I want to <> ','so that <> '" format.for each object involved in the user stories.
+
+Week 5:
+
+We decided on writing indivaidual user story for all objects in order to make it more simple to understand role of each actor in project. To make coding more easy, team decided to know more about design patterns to make developement more simple.
