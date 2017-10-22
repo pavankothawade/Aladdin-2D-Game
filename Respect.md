@@ -22,4 +22,9 @@ Week #4
 
 * Team members dicussed user stories for all objects involved in project. Each member discussed their views on the same.
 * All team member couldn't focus on project because of exams.
-* All members also discussed on Design Patterns.
+
+
+Week #5
+
+* All members discussed on Design Patterns.
+* Some more features on prototype of game was added in Greenfoot and shared with other members; all members give their feedback and suggetions on it.
