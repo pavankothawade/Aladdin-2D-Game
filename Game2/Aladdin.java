@@ -47,20 +47,12 @@ public class Aladdin extends Actor
         DispGameover();
         }
 		
-        /*
         if(Greenfoot.isKeyDown("space"))
         {
-            if(!isPaused())
-            {
-            Greenfoot.stop();
+            Greenfoot.stop();  // Pause the game
             isPaused = true;
-        }
-        if(isPaused())
-        {
-            Greenfoot.start();
-            isPaused = false;
-        }
-        } */
+         
+        } 
 		
           dy = dy+g;
   
