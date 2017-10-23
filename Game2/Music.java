@@ -22,6 +22,13 @@ public class Music extends Actor
             myMusic.playLoop();
             firstTurn=false;
         }
+		
+        if(Aladdin.music == false)
+        {
+            myMusic.pause();
+            Aladdin.music = true;
+        }
+
         if(Greenfoot.mouseClicked(this))
         {
             if(myMusic.isPlaying())

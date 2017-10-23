@@ -16,6 +16,8 @@ public class Aladdin extends Actor
     double dy = 0;
     double g = 1.3;
     double speed =-4;
+	public static boolean music = true;
+	public static boolean isPaused = false;
     public void act() 
     {
         
@@ -44,6 +46,22 @@ public class Aladdin extends Actor
         if(getY() > getWorld().getHeight()){
         DispGameover();
         }
+		
+        /*
+        if(Greenfoot.isKeyDown("space"))
+        {
+            if(!isPaused())
+            {
+            Greenfoot.stop();
+            isPaused = true;
+        }
+        if(isPaused())
+        {
+            Greenfoot.start();
+            isPaused = false;
+        }
+        } */
+		
           dy = dy+g;
   
     }  
@@ -52,6 +70,7 @@ public class Aladdin extends Actor
        
          GameOver gameOver = new GameOver();
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+		 music = false;
          Greenfoot.stop();
         
     
