@@ -42,6 +42,5 @@ public class Music extends Actor
                 setImage("pause.png");
             }
         }
-        if(Greenfoot.)
     }    
 }
