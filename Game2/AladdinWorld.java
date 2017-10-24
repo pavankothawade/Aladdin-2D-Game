@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class AladdinWorld extends World
 {
+    
      int counter =0;
     /**
      * Constructor for objects of class AladdinWorld.
@@ -20,6 +21,9 @@ public class AladdinWorld extends World
         
         Aladdin B1 = new Aladdin();
         addObject(B1,100,getHeight()/2);
+        
+        Music m1=new Music();
+        addObject(m1,20,50);
       
     }
     

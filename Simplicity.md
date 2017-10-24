@@ -18,3 +18,10 @@ After communicating within team and with Professor, it became clear that we cann
 Week 4:
 
 There were ideas floating as to how different and descriptive user stories can be. We have sticked to simple format for user stories with fulfilling the three basic parameters: " ' As a <user>', 'I want to <> ','so that <> '" format.for each object involved in the user stories.
+
+
+Week 5:
+
+As the user basic requirements for scrum will be having a proxy product owner, a scrum master and development team. 
+Although everyone is going to be working as a development team, additionally we have decided to assign roles for proper product development 
+while ensuring following of scrum process. 
