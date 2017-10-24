@@ -25,7 +25,9 @@ public class Aladdin extends Actor
         if( getOneIntersectingObject(Hurdle.class) != null){
         DispGameover();
         }
-        
+        if( getOneIntersectingObject(Hurdle2.class) != null){
+        DispGameover();
+        }
         setLocation(getX(),(int)(getY()+dy));
         
         if(Greenfoot.isKeyDown("up")== true)

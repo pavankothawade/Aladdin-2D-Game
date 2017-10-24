@@ -32,20 +32,26 @@ public class AladdinWorld extends World
     
         counter ++;
         
-        if(counter % 67 == 0)
+        if(counter % 59 == 0)
         {
            Hurdle P1 = new Hurdle();
            
            GreenfootImage image = P1.getImage();
            addObject(P1,getWidth(),getHeight()/2 + image.getHeight()/2);
-           
-           
-           
-           
-           
-           
+       
            
         }
+         if(counter % 73 == 0)
+        {
+           Hurdle2 P1 = new Hurdle2();
+           
+           GreenfootImage image = P1.getImage();
+          // addObject(P1,getWidth(),40);
+           addObject(P1,getWidth(),getHeight() + image.getHeight()/2);
+       
+           
+        }
+        
         if(counter % 87==0)
         {
             Hurdle P2=new Hurdle();
@@ -53,20 +59,22 @@ public class AladdinWorld extends World
             addObject(P2,getWidth(),getHeight()-30);
         }
         
-         if(counter % 130==0)
+         if(counter % 300==0)
         {
             Hurdle P3=new Hurdle();
             GreenfootImage image =P3.getImage();
             addObject(P3,getWidth(),18);
         }
         
-        if(counter % 235==0)
+         
+        
+        /*if(counter % 235==0)
         {
             Hurdle P4=new Hurdle();
             GreenfootImage image =P4.getImage();
             addObject(P4,getWidth(),100);
         }
-        
+        */
    
         
     
