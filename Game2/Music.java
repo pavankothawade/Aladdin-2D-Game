@@ -34,12 +34,12 @@ public class Music extends Actor
             if(myMusic.isPlaying())
             {
             myMusic.pause();
-            setImage("play.png");
+            setImage("unmute.png");
             }
             else
             {
                 myMusic.playLoop();
-                setImage("pause.png");
+                setImage("mute.png");
             }
         }
     }    

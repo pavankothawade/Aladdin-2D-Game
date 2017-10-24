@@ -23,7 +23,7 @@ public class AladdinWorld extends World
         addObject(B1,100,getHeight()/2);
         
         Music m1=new Music();
-        addObject(m1,20,50);
+        addObject(m1,getWidth()-20,20);
         
     }
     
