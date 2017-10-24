@@ -10,6 +10,7 @@ public class AladdinWorld extends World
 {
     
      int counter =0;
+     private Background img0, img1;
     /**
      * Constructor for objects of class AladdinWorld.
      * 
@@ -17,8 +18,11 @@ public class AladdinWorld extends World
     public AladdinWorld()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1, false); 
-        
+        super(650, 350, 1, false); 
+        img0 = new Background();
+        addObject(img0, getWidth ()/2, getHeight()/2);
+        img1 = new Background();
+        addObject(img1, getWidth() + getWidth()/2, getHeight()/2);
         Aladdin B1 = new Aladdin();
         addObject(B1,100,getHeight()/2);
         
@@ -26,11 +30,16 @@ public class AladdinWorld extends World
         addObject(m1,getWidth()-20,20);
         
     }
+   
     
       
     public void act() {
     
         counter ++;
+        
+        img0.scroll();
+        img1.scroll();
+        
         
         if(counter % 59 == 0)
         {
