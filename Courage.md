@@ -17,9 +17,8 @@ Week:3
 In week 3, We need to show courage in learning new game engine. We already have decided to structure 3 stages in our game so for this we need to have courage to learn many things and implement it. So after learning the basic things in our game engine i.e Greenfoot we came up with the basic prototype of our game link of which is given in README.md.
 
 Week: 4
-In week 4, We need to show courage to explore other things like methodologies and design patterns which we will be using in our peoject.
-Along with all this things we need to show courage in making rough sketch of our game levels so that we can get the exact idea of what we will be building.
+In week 4, We need to show courage to explore other things like methodologies and design patterns which we will be using in our peoject. Along with all this things we need to show courage in making rough sketch of our game levels so that we can get the exact idea of what we will be building. We need to show courage in study of design patterns. Everyone in team is studying design patterns which we need to implement in our project. Courage is the main factor which will play the important role in upcoming weeks
+
 
 Week: 5
-In week 5, We need to show courage in study of design patterns. Everyone in team is studying design patterns which we need to implement in our project. Courage is the main factor which will play the important role in upcoming weeks
-
+In week 5, We need to show courage adapting scrum methodology in our project. We will be working on prototype of the game to make it more advanced. We need to show courage in implementing user stories given by product owner. Apart from this we need to create issues and assign it to respective team members. We need to complete coding tasks assigned to every team memeber. We need to show courage in deciding scrum master and product owner.

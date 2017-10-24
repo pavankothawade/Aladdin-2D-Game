@@ -18,8 +18,11 @@ Week #4
 * As we were developing user stories we met and discussed on how and what can be our possibilities.
 * We also discussed our experience at Silicon Valley Code Camp and what we learned from the sessions that we attended.
 * As we have our midterm, we connected with each other through conference calls and then we discussed the progress of the project. 
-
-
-Week #5
 * We met and discussed about the design patterns.
 * We figured out which all design patterns suits our project well so that we can incorporate them in our project to leverage the game.
+
+Week #5
+
+* We had a meeting regarding different roles in our project. Scrum master, Product Owner and Development team have been decided.
+* We distributed the tasks to each team member.
+* Each team member is going to work on different functionality of the game.
