@@ -10,20 +10,21 @@ public class Hurdle extends Actor
 {
    
     
-   int Hur_Speed = -4;
+   int Hur_Speed = -8;
    int Hur_Speed1 = -5;
     public void act() 
     {
        
         
        setLocation(getX() + Hur_Speed, getY());
+       //setLocation(getX()+Hur_Speed1, getY()-5);
        
        //setLocation(Greenfoot.getRandomNumber(getX())+Hur_Speed,getY());
        
         
         
         
-        //setLocation(getX()+ Greenfoot.getRandomNumber(5)-1, getY() + Greenfoot.getRandomNumber(40)-20);
+       // setLocation(getX()+ Greenfoot.getRandomNumber(5)-1, getY() + Greenfoot.getRandomNumber(40)-20);
 
 
     }    
