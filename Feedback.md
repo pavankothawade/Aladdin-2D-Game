@@ -11,5 +11,7 @@ Week4:
 Feeback was taken on the User Stories developed. New User stories discussed and feedback regarding each user was taken.
 
 Week5:
-Team discussed about design pattern to be incorporated for the further development. Team discussed about the design pattern that can be included and a feeback from each team member helped us to understand more to which of the Design Patterns that can be selected and incorporated.
+Collective feedback was taken to understand what tasks are pending. This week we started with Scrum, defination of done was defined as per team feedback.
+Within the team roles were classifed as Scrum Master and product owner and based on feeback Amita, shripal were named to be Scrum Master and Product owner repectively for Sprint1.
+
 
