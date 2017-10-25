@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hurdle2 extends Actor
 {
-    int Hur_Speed2 = -3;
+    int Hur_Speed2 = -8;
     int Hur_Speed3 = -5;
     public Hurdle2(){
     GreenfootImage image = getImage();
@@ -24,6 +24,6 @@ public class Hurdle2 extends Actor
     public void act() 
     {
         setLocation(getX() + Hur_Speed2, getY());
-        setLocation(getX()+Hur_Speed3, getY()-5);
+        
     }    
 }

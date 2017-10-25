@@ -12,6 +12,12 @@ public class Grabber extends Actor
      * Act - do whatever the Grabber wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Grabber(){
+    GreenfootImage image = getImage();
+        image.scale(image.getWidth() - 40, image.getHeight() - 40);
+        setImage(image);
+    
+    }
     int Grab_Speed = -8;
    int Grab_Speed1 = -5;
     public void act() 
