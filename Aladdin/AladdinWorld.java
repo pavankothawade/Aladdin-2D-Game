@@ -75,7 +75,12 @@ public class AladdinWorld extends World
             addObject(P3,getWidth(),18);
         }
         
-         
+         if(counter %30 ==0)
+        {
+            Grabber g1=new Grabber();
+            GreenfootImage img=g1.getImage();
+            addObject(g1,getWidth(),50);
+        }
         
         /*if(counter % 235==0)
         {

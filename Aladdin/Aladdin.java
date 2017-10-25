@@ -52,6 +52,13 @@ public class Aladdin extends Actor
         if(getY() > getWorld().getHeight()){
         DispGameover();
         }
+        
+        if(getOneIntersectingObject(Grabber.class) != null){
+             
+             GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
+             myMusic.play();
+             getWorld().removeObject(getOneIntersectingObject(Grabber.class));
+        }
 		
         if(Greenfoot.isKeyDown("space"))
         {
