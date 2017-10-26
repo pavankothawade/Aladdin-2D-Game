@@ -26,3 +26,6 @@ Week #5
 * We had a meeting regarding different roles in our project. Scrum master, Product Owner and Development team have been decided.
 * We distributed the tasks to each team member.
 * Each team member is going to work on different functionality of the game.
+* As per last meetings discussion, every team member completed their respective tasks related to game
+* We met and tried to integrate the code and created the first level of the game .
+* We discussed on the next tasks that needs to be done.
