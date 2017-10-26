@@ -41,18 +41,20 @@ On the basis of the above analysis we have created three epic stories
 3.	As an obstacle in the game, I will prevent Aladdin to go further as I don’t want him to reach destination.
 4.	As a developer of the game, I should be able to develop a game which is clear and understandable, so that the player can play the game well.
 
+
 # User stories:
 1.	As a player in the game, I want to know my score so that I know how close I am to my goal.
-2.	As a player in the game, I want to be able to identify the hurdles correctly and avoid them.
-3.	As a player in the game, I should hear music to understand whether I am still in the game.
-4.	As a player in the game, I need to see Genie and Jasmine at the end of the game.
-5.	As an actor in the game, I should be able to navigate through the obstacles.
-6.	As a player in the game, I should understand the rules.
-7.	As a hurdle in the game, I should be able to end the game as soon as the player lands on me.
-8.	As an actor in the game, I should be able to move using an input interface.
-9.	As a developer of the game, I should ensure the audio is designed.
-10.	As a developer of the game, I should ensure the characters are well defined.
-11.	As a developer of the game, I must design the controls and the interface to be used.
-12.	As a developer of the game, I must ensure the display is clear and understandable.
-13.	As a developer of the game, I must ensure all works well when different parts are integrated.
+2.	As a player in the game, I want to be able to identify the hurdles so that I can avoid them.
+3.	As a player in the game, I should hear music so that user enjoys the game experience.
+4.  As a player in the game, I should be able to grab bonus object so that my points get increased.
+5.	As a player in the game, I need to see Genie and Jasmine at the end of the game.
+6.	As an actor in the game, I should be able to navigate through the obstacles.
+7.	As a player in the game, I should understand the rules.
+8.	As a hurdle in the game, I should be able to end the game as soon as the player lands on me.
+9.	As an actor in the game, I should be able to move using an input interface.
+10.	As a developer of the game, I should ensure the audio is designed.
+11.	As a developer of the game, I should ensure the characters are well defined.
+12.	As a developer of the game, I must design the controls and the interface to be used.
+13.	As a developer of the game, I must ensure the display is clear and understandable.
+14.	As a developer of the game, I must ensure all works well when different parts are integrated.
 
