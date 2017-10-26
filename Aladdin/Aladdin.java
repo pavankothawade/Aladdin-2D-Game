@@ -83,7 +83,7 @@ public class Aladdin extends Actor
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          music = false;
          Greenfoot.stop();
-        
+         
     
     }
 

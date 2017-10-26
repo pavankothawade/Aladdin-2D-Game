@@ -11,8 +11,8 @@ public class AladdinWorld extends World
     
      int counter =0;
      private Background img0, img1;
-     int score = 0;
       Counter counter1 = new Counter();
+      
     /**
      * Constructor for objects of class     AladdinWorld.
      * 
@@ -30,7 +30,7 @@ public class AladdinWorld extends World
         addObject(counter1,40,20);
         Music m1=new Music();
         addObject(m1,getWidth()-20,20);
-        
+              Counter.setStartScore();
     }
    
     public Counter getCounter()

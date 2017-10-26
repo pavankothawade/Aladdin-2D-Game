@@ -31,4 +31,9 @@ public class Counter extends Actor
      //   Counter.act();
     }
     
+    public static void setStartScore()
+    {
+        score = 0;
+    }
+    
 }
