@@ -11,8 +11,10 @@ public class AladdinWorld extends World
     
      int counter =0;
      private Background img0, img1;
+     int score = 0;
+      Counter counter1 = new Counter();
     /**
-     * Constructor for objects of class AladdinWorld.
+     * Constructor for objects of class     AladdinWorld.
      * 
      */
     public AladdinWorld()
@@ -25,12 +27,16 @@ public class AladdinWorld extends World
         addObject(img1, getWidth() + getWidth()/2, getHeight()/2);
         Aladdin B1 = new Aladdin();
         addObject(B1,100,getHeight()/2);
-        
+        addObject(counter1,40,20);
         Music m1=new Music();
         addObject(m1,getWidth()-20,20);
         
     }
    
+    public Counter getCounter()
+    {
+        return counter1;
+    }
     
       
     public void act() {
@@ -52,7 +58,7 @@ public class AladdinWorld extends World
              Hurdle2 P2 = new Hurdle2();
              
              
-              addObject(P2,900,Greenfoot.getRandomNumber(360));
+           addObject(P2,900,Greenfoot.getRandomNumber(360));
            addObject(P2,900,Greenfoot.getRandomNumber(100));
            
            

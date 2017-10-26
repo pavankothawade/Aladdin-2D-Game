@@ -17,8 +17,9 @@ public class Aladdin extends Actor
     double g = 1.3;
     double speed =-4;
     
-	public static boolean music = true;
-	public static boolean isPaused = false;
+    public static boolean music = true;
+    public static boolean isPaused = false;
+    //Counter counter1 = AladdinWorld.getCounter();
     public void act() 
     {
         
@@ -33,17 +34,19 @@ public class Aladdin extends Actor
         if(Greenfoot.isKeyDown("up")== true)
         {
          dy= speed;
+         Counter.addScore();
         }
         
         
        if(Greenfoot.isKeyDown("right")== true)
         {
          setRotation(20);
+         Counter.addScore();
         } 
         
         if(Greenfoot.isKeyDown("left")== true)
         {
-        setRotation(-20);
+        setRotation(-20);        
         } 
         
         if(getY()<16){
@@ -57,16 +60,19 @@ public class Aladdin extends Actor
              
              GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
              myMusic.play();
+             Counter.bonusPoints();
              getWorld().removeObject(getOneIntersectingObject(Grabber.class));
         }
-		
+        
         if(Greenfoot.isKeyDown("space"))
         {
-            Greenfoot.stop();  // Pause the game
-            isPaused = true;
+           music = false;
+           isPaused = true;
+           Greenfoot.stop();  // Pause the game
+
          
         } 
-		
+        
           dy = dy+g;
   
     }  
@@ -75,7 +81,7 @@ public class Aladdin extends Actor
        
          GameOver gameOver = new GameOver();
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
-		 music = false;
+         music = false;
          Greenfoot.stop();
         
     
