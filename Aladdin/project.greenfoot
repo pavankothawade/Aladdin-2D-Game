@@ -37,10 +37,30 @@ dependency5.to=Hurdle2
 publish.longDesc=
 target1.name=Counter
 dependency8.from=AladdinWorld
+<<<<<<< HEAD
 class.Counter.superclass=greenfoot.Actor
 target4.typeParameters=
 target5.name=Music
 world.lastInstantiated=AladdinWorld
+=======
+dependency8.to=Counter
+dependency8.type=UsesDependency
+dependency9.from=Aladdin
+dependency9.to=GameOver
+dependency9.type=UsesDependency
+editor.fx.0.height=747
+editor.fx.0.width=818
+editor.fx.0.x=551
+editor.fx.0.y=94
+mainWindow.height=1048
+mainWindow.width=1938
+mainWindow.x=-9
+mainWindow.y=-9
+package.numDependencies=14
+package.numTargets=9
+project.charset=UTF-8
+publish.hasSource=false
+>>>>>>> 62b936181d17cb93e9550fed2bda0aa31728e5d5
 publish.locked=true
 mainWindow.width=1115
 readme.width=47
