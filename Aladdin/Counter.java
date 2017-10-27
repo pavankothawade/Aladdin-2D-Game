@@ -14,10 +14,12 @@ public class Counter extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public static int score = 0;
+        public static int gameOver_counter = 0;
     public void act() 
     {
         // Add your action code here.
-        setImage(new GreenfootImage("Score : "+score , 22, Color.WHITE, Color.BLACK));
+        setImage(new GreenfootImage("Score : "+score +"      Grabber:"+gameOver_counter, 22, Color.WHITE, Color.BLACK));
+        //setImage(new GreenfootImage("Grabber : "+gameOver_counter , 20, Color.WHITE, Color.BLACK));
     }    
     
     public static void addScore()
@@ -28,12 +30,14 @@ public class Counter extends Actor
     public static void bonusPoints()
     {
         score = score + 300;
+        gameOver_counter+=1;
      //   Counter.act();
     }
     
     public static void setStartScore()
     {
         score = 0;
+        gameOver_counter=0;
     }
     
 }

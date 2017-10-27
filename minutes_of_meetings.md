@@ -81,6 +81,20 @@ We also decided to meet again in this week to discuss the further details and st
 
 Location: MLK Library
 
+* Week #5
+* In this meeting we finalized each member's role to follow SCRUM methodology and their task in project.
+* Each member took the responsibility to complete different modules in project.
+* User stories were build for level 1 of project.
+
+
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
+
+
 
 
 

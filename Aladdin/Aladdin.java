@@ -18,6 +18,7 @@ public class Aladdin extends Actor
     double speed =-4;
     
     public static boolean music = true;
+    public static boolean level_qualified = false;
     public static boolean isPaused = false;
     //Counter counter1 = AladdinWorld.getCounter();
     public void act() 
@@ -62,6 +63,7 @@ public class Aladdin extends Actor
              myMusic.play();
              Counter.bonusPoints();
              getWorld().removeObject(getOneIntersectingObject(Grabber.class));
+             //myMusic.stop();
         }
         
         if(Greenfoot.isKeyDown("space"))
@@ -69,10 +71,11 @@ public class Aladdin extends Actor
            music = false;
            isPaused = true;
            Greenfoot.stop();  // Pause the game
-
-         
         } 
         
+          if( Counter.gameOver_counter==15){
+        DispLevelQualified();
+        }
           dy = dy+g;
   
     }  
@@ -83,8 +86,15 @@ public class Aladdin extends Actor
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          music = false;
          Greenfoot.stop();
-         
+    }
     
+    private void DispLevelQualified(){
+       
+         GameOver gameOver = new GameOver();
+         gameOver.setImage(new GreenfootImage("level_complete.jpg"));
+         getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+         level_qualified = true;;
+         Greenfoot.stop();
     }
 
 }

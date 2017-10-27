@@ -27,7 +27,7 @@ public class AladdinWorld extends World
         addObject(img1, getWidth() + getWidth()/2, getHeight()/2);
         Aladdin B1 = new Aladdin();
         addObject(B1,100,getHeight()/2);
-        addObject(counter1,40,20);
+        addObject(counter1,110,20);
         Music m1=new Music();
         addObject(m1,getWidth()-20,20);
               Counter.setStartScore();
@@ -56,16 +56,9 @@ public class AladdinWorld extends World
            addObject(P1,779,Greenfoot.getRandomNumber(360));
            addObject(P1,779,Greenfoot.getRandomNumber(100));
              Hurdle2 P2 = new Hurdle2();
-             
-             
+                          
            addObject(P2,900,Greenfoot.getRandomNumber(360));
-           addObject(P2,900,Greenfoot.getRandomNumber(100));
-           
-           
-           
- 
-           
-           
+           addObject(P2,900,Greenfoot.getRandomNumber(100));  
         }
         
         

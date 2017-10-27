@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Music extends Actor
 {
-    GreenfootSound myMusic=new GreenfootSound("Game_of_Thrones(HBO).mp3");
+    GreenfootSound myMusic=new GreenfootSound("background.mp3");
     boolean firstTurn=true;
     /**
      * Act - do whatever the Music wants to do. This method is called whenever
@@ -26,6 +26,16 @@ public class Music extends Actor
         if(Aladdin.music == false)
         {
             myMusic.pause();
+            myMusic=new GreenfootSound("smb_bowserfalls.wav");
+            myMusic.play();
+            Aladdin.music = true;
+        }
+        
+        if(Aladdin.level_qualified == true)
+        {
+            myMusic.pause();
+            myMusic=new GreenfootSound("level_complete.mp3");
+            myMusic.play();
             Aladdin.music = true;
         }
 
