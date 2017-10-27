@@ -61,14 +61,29 @@ Vinit Singh
 * Created user story for Grabber in Level 1.
 * Implemented user story #4 for Grabber in the game.
 
+Amita Mathkar
+* Created user story for Music in Level 1.
+* Implemented user story #3 for Music in the game.
+* Played a role of Scrum Master, to see whether SCRUM is followed and daily standup is done.
+* Sprint 1 review with team.
+
 ### What is the team going to do next week?
 
 Vinit Singh
 * Create user story for Grabber in Level 2.
 * Implement Design Patterns for Game in Level 1.
 
+Amita Mathkar
+* Create user story for Music in Level 2.
+* Study and implement Design Patterns for Game in Level 1.
+* Work more on graphics and sounds.
+
 
 ### What are the current blockers/challenges the team is facing?
 
 Vinit Singh
 * Choice and Implementation of Design Patterns.
+
+Amita Mathkar
+* To check and finalize which Design Patterns will fit for project.
+* To find object images that can fit in game definition.

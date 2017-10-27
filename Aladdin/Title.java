@@ -20,6 +20,7 @@ public class Title extends World
         Greenfoot.start();
         Start S1 = new Start();
         addObject(S1,200,getHeight()/2-200);
+                showText("Grab 10 golden coins to complete level 1",500,630);
         
     }
     public void act()
