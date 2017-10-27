@@ -52,9 +52,6 @@ On the basis of the above analysis we have created three epic stories
 7.	As a player in the game, I should understand the rules.
 8.	As a hurdle in the game, I should be able to end the game as soon as the player lands on me.
 9.	As an actor in the game, I should be able to move using an input interface.
-10.	As a developer of the game, I should ensure the audio is designed.
-11.	As a developer of the game, I should ensure the characters are well defined.
-12.	As a developer of the game, I must design the controls and the interface to be used.
-13.	As a developer of the game, I must ensure the display is clear and understandable.
-14.	As a developer of the game, I must ensure all works well when different parts are integrated.
+10.	As a player of the game, I should ensure the audio is heard on event of game start, and when aladdin holds the Grabber and on event of Game Over/Level completion.
+
 
