@@ -2,7 +2,7 @@ Everyone gives and feels the respect they deserve as a valued team member. Every
  
 The project discussion started with choosing a topic, diverse ideas from each of the team members had come. Each team member patiently listened and analyze the idea investing their own time instead of just denying the idea.
 Team combined all ideas those were discussed during our meeting, each member studied feasibility of project and then it was discussed in the next meeting and with the agreement of each team member one idea was finalized for the project.
-Since every team member has different technical skills; each member’s skill is respected with the enthusiasm of learning new technologies by all team members.
+Since every team member has different technical skills; each memberâ€™s skill is respected with the enthusiasm of learning new technologies by all team members.
 
 Week #2
 
@@ -22,9 +22,11 @@ Week #4
 
 * Team members dicussed user stories for all objects involved in project. Each member discussed their views on the same.
 * All team member couldn't focus on project because of exams.
+* All members discussed on Design Patterns.
 
 
 Week #5
 
-* All members discussed on Design Patterns.
-* Some more features on prototype of game was added in Greenfoot and shared with other members; all members give their feedback and suggetions on it.
+* All members distributed modules of project and decided to work on it to release sprint 1.
+* Each team member worked on the modules assigned and then delivered their changes, other members reviewed the same and shared their views on that in next scheduled meeting.
+* I respect the committment of team members shown on Sprint review meeting.

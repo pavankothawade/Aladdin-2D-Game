@@ -73,7 +73,7 @@ public class Aladdin extends Actor
            Greenfoot.stop();  // Pause the game
         } 
         
-          if( Counter.gameOver_counter==15){
+          if( Counter.gameOver_counter==5){
         DispLevelQualified();
         }
           dy = dy+g;
@@ -93,7 +93,8 @@ public class Aladdin extends Actor
          GameOver gameOver = new GameOver();
          gameOver.setImage(new GreenfootImage("level_complete.jpg"));
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
-         level_qualified = true;;
+         level_qualified = true;
+         music = false;
          Greenfoot.stop();
     }
 
