@@ -56,12 +56,19 @@ We have not been able to design UML diagrams last week. Also deciding on designi
 
 # Week-5
 ### What did the team do the past week?
-As we decided to work on study of design patterns so every team member have studied design patterns to some extent. As there are many of the design patterns so it will take some more time to study each design pattern. Team did some research on the images of the characters we are going to include in game. Along with this team has studied the greenfoot and have started extending the basic prtotype of the game.
+
+Vinit Singh
+* Created user story for Grabber in Level 1.
+* Implemented user story #4 for Grabber in the game.
 
 ### What is the team going to do next week?
-* Team is going to study remaining design patterns need to implement in project.
-* Team is going to extend the prototype of our game.
-* Team will concentrate on the user stories and will try to extend previous user stories.
+
+Vinit Singh
+* Create user story for Grabber in Level 2.
+* Implement Design Patterns for Game in Level 1.
+
 
 ### What are the current blockers/challenges the team is facing?
-The current blocker team is facing is about the design patterns. Team is not getting the exact idea of design patterns suitable to implement in our project. Team is trying its best to come up with  the final design patterns in next week.
+
+Vinit Singh
+* Choice and Implementation of Design Patterns.
