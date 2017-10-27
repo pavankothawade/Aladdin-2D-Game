@@ -73,7 +73,7 @@ public class Aladdin extends Actor
            Greenfoot.stop();  // Pause the game
         } 
         
-          if( Counter.gameOver_counter==5){
+          if( Counter.gameOver_counter==10){
         DispLevelQualified();
         }
           dy = dy+g;

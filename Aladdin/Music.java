@@ -33,7 +33,7 @@ public class Music extends Actor
         
         if(Aladdin.level_qualified == true)
         {
-            System.out.println("level called");
+            
             myMusic.pause();
             myMusic=new GreenfootSound("level_complete.mp3");
             myMusic.play();

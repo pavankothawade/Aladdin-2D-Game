@@ -19,7 +19,7 @@ public class Grabber extends Actor
     
     }
     int Grab_Speed = -8;
-   int Grab_Speed1 = -5;
+   
     public void act() 
     {
         // Add your action code here.
