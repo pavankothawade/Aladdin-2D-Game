@@ -57,6 +57,11 @@ We have not been able to design UML diagrams last week. Also deciding on designi
 # Week-5
 ### What did the team do the past week?
 
+Pritam Meher
+* Created user story for Hurdles in Level1.
+* Implemented code for Hurdles in the game.
+* Implemented code for the start & instructions screen in the game.
+
 Vinit Singh
 * Created user story for Grabber in Level 1.
 * Implemented user story #4 for Grabber in the game.
@@ -75,6 +80,11 @@ Pavan Kothawade
 
 ### What is the team going to do next week?
 
+Pritam Meher
+* Create user story for Hurdles in Level 2.
+* Implement code for Hurdles in the game in Level 2.
+
+
 Vinit Singh
 * Create user story for Grabber in Level 2.
 * Implement Design Patterns for Game in Level 1.
@@ -92,6 +102,10 @@ Pavan Kothawade
 * Study and implement the design patterns suitable to my work in game.
 
 ### What are the current blockers/challenges the team is facing?
+
+Pritam Meher
+* Deciding which design pattern will suit best for the hurdles implementation in the game.
+
 
 Vinit Singh
 * Choice and Implementation of Design Patterns.
