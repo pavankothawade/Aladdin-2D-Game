@@ -78,6 +78,14 @@ Pavan Kothawade
 * Integrated code for scrolling background in game for level 1 and pushed it on github.
 * Played role of developer and successfully implemented the user stories assigned to me.
 
+Shripal Modani
+* Created user story for Aladdin and Scoreboard
+* Created product backlog as a proxy product owner
+* Implemented user story for Aladdin
+* Completed user story for Scoreboard in the game
+* Integrated code in the game and remove errors.
+
+
 ### What is the team going to do next week?
 
 Pritam Meher
@@ -101,6 +109,12 @@ Pavan Kothawade
 * Integrate code for level 2 in the game and push it on github.
 * Study and implement the design patterns suitable to my work in game.
 
+Shripal Modani
+* Implement Observer Design pattern for Game.
+* Design Test cases for developed functions. 
+* Integrate and refactor the entire code.
+
+
 ### What are the current blockers/challenges the team is facing?
 
 Pritam Meher
@@ -117,3 +131,8 @@ Amita Mathkar
 Pavan Kothawade
 * Not getting good quality and perfect size images for background so need to work in this area.
 * Not able to decide the design pattern to implement so need to study design patterns.
+
+Shripal Modani
+* Implementing observer pattern in the optimum way for the game.
+* Syncing the scores between levels.
+* Understanding scrum process in much better way.
