@@ -16,8 +16,8 @@ In the first hurdle Aladdin will have to face 2 enemies in order to obtain the m
 Now with the help of magic carpet Aladdin can travel safely facing few obstacles to reach towards the magic flask. The magical character 'Genie' is trapped inside the magic flask. Aladdin ask Genie to help him to cross obstacles in his way.
 In the third and the last level Aladdin and Genie will be facing 'Jafar'.If Aladdin can tackle him he will meet Jasmine.
 
-Link to Cumulative Flow Diagram (Team's Google Sheet) 
-https://docs.google.com/spreadsheets/d/1hvKa5LuMKroQWQnGKvHIOd7EW76Sr4Me-EzxSl4foc4/edit#gid=2
+Link to Cumulative Flow Diagram (Team's Google Sheet): https://goo.gl/eU23hG
 
-Link to Prototype of the game:
-http://www.greenfoot.org/scenarios/19947
+Link to Prototype of the game: https://goo.gl/R6pH3r
+
+Link To Scrum Burndown Chart: https://goo.gl/NYRJfS

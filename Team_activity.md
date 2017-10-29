@@ -67,6 +67,12 @@ Amita Mathkar
 * Played a role of Scrum Master, to see whether SCRUM is followed and daily standup is done.
 * Sprint 1 review with team.
 
+Pavan Kothawade
+* Created user story for scrolling background functionality for level 1.
+* Created basic code for the same functionality.
+* Integrated code for scrolling background in game for level 1 and pushed it on github.
+* Played role of developer and successfully implemented the user stories assigned to me.
+
 ### What is the team going to do next week?
 
 Vinit Singh
@@ -78,6 +84,12 @@ Amita Mathkar
 * Study and implement Design Patterns for Game in Level 1.
 * Work more on graphics and sounds.
 
+Pavan Kothawade
+* Create user story for the scrolling background for level 2 
+* Focus on different backgrounds that can be used in level 2 of the game.
+* Focus on the adavance functionality that can be implemented in background for level 2.
+* Integrate code for level 2 in the game and push it on github.
+* Study and implement the design patterns suitable to my work in game.
 
 ### What are the current blockers/challenges the team is facing?
 
@@ -87,3 +99,7 @@ Vinit Singh
 Amita Mathkar
 * To check and finalize which Design Patterns will fit for project.
 * To find object images that can fit in game definition.
+
+Pavan Kothawade
+* Not getting good quality and perfect size images for background so need to work in this area.
+* Not able to decide the design pattern to implement so need to study design patterns.
