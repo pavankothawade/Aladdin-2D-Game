@@ -16,6 +16,7 @@ public class Aladdin extends Actor
     double dy = 0;
     double g = 1.3;
     double speed =-4;
+    public static int lives=3;
     
     public static boolean music = true;
     public static boolean level_qualified = false;
@@ -25,10 +26,46 @@ public class Aladdin extends Actor
     {
         
         if( getOneIntersectingObject(Hurdle.class) != null){
-        DispGameover();
+            if(lives<=0)
+            {
+            DispGameover();
+            }
+            else
+            {
+                GreenfootSound myMusic=new GreenfootSound("smb_stomp.wav");
+                myMusic.play();
+                lives=lives-1;
+                getWorld().removeObject(getOneIntersectingObject(Hurdle.class));
+                
+                 GreenfootImage i = getImage();
+       int t = i.getTransparency();
+       i.setTransparency(0);
+       Greenfoot.delay(5);
+       i.setTransparency(t);
+       Greenfoot.delay(5);
+                
+            }
         }
         if( getOneIntersectingObject(Hurdle2.class) != null){
-        DispGameover();
+//        DispGameover();
+            if(lives<=0)
+            {
+            DispGameover();
+            }
+            else
+            {
+                GreenfootSound myMusic=new GreenfootSound("smb_stomp.wav");
+                myMusic.play();
+                lives=lives-1;
+                getWorld().removeObject(getOneIntersectingObject(Hurdle2.class));
+                
+                 GreenfootImage i = getImage();
+       int t = i.getTransparency();
+       i.setTransparency(0);
+       Greenfoot.delay(5);
+       i.setTransparency(t);
+       Greenfoot.delay(5);
+            }
         }
         setLocation(getX(),(int)(getY()+dy));
         
@@ -76,8 +113,7 @@ public class Aladdin extends Actor
           if( Counter.gameOver_counter==10){
         DispLevelQualified();
         }
-          dy = dy+g;
-  
+          dy = dy+g;  
     }  
     
     private void DispGameover(){

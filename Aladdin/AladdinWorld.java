@@ -31,6 +31,8 @@ public class AladdinWorld extends World
         Music m1=new Music();
         addObject(m1,getWidth()-20,20);
               Counter.setStartScore();
+              
+
     }
    
     public Counter getCounter()

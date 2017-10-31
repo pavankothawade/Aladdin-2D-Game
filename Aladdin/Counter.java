@@ -18,7 +18,7 @@ public class Counter extends Actor
     public void act() 
     {
         // Add your action code here.
-        setImage(new GreenfootImage("Score : "+score +"      Grabber:"+gameOver_counter, 22, Color.WHITE, Color.BLACK));
+        setImage(new GreenfootImage("Score : "+score +"      Grabber:"+gameOver_counter+"Lives: "+Aladdin.lives, 22, Color.WHITE, Color.BLACK));
         //setImage(new GreenfootImage("Grabber : "+gameOver_counter , 20, Color.WHITE, Color.BLACK));
     }    
     
@@ -38,6 +38,7 @@ public class Counter extends Actor
     {
         score = 0;
         gameOver_counter=0;
+        Aladdin.lives=3;
     }
     
 }
