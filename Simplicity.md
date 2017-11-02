@@ -25,3 +25,10 @@ Week 5:
 As the user basic requirements for scrum will be having a proxy product owner, a scrum master and development team. 
 Although everyone is going to be working as a development team, additionally we have decided to assign roles for proper product development 
 while ensuring following of scrum process. 
+
+Week 6:
+
+As the approach of starting with a simple functionality and 
+integrating it with the entire project has been the key highlight of last week. 
+In this week we are going to add new level in the game. We will be communicating more frequently, 
+to understand and develop the level 2 only as is required. 
