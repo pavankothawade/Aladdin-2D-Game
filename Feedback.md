@@ -14,4 +14,8 @@ Week5:
 Collective feedback was taken to understand what tasks are pending. This week we started with Scrum, defination of done was defined as per team feedback.
 Within the team roles were classifed as Scrum Master and product owner and based on feeback Amita, shripal were named to be Scrum Master and Product owner repectively for Sprint1.
 
+Week6:
+Team delivered  Sprint1 - Defination of done with a good Sprint Review. Feedback from each team member was taken to define done for SPRINT2 starting this week.
+
+
 
