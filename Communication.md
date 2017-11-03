@@ -29,3 +29,7 @@ Week #5
 * As per last meetings discussion, every team member completed their respective tasks related to game
 * We met and tried to integrate the code and created the first level of the game .
 * We discussed on the next tasks that needs to be done.
+
+Week #6
+* We met today and discussed about the level 2 design
+* Respective tasks were distributed to everyone and we are supposed to complete them before next meeting.
