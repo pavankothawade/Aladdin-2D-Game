@@ -6,8 +6,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
 public class Music extends Actor
 {
+    public static boolean isMusicPlaying=true;
     GreenfootSound myMusic=new GreenfootSound("background.mp3");
     boolean firstTurn=true;
     /**
@@ -22,7 +24,7 @@ public class Music extends Actor
             myMusic.playLoop();
             firstTurn=false;
         }
-		
+        
         if(Aladdin.music == false)
         {
             myMusic.pause();
@@ -33,25 +35,30 @@ public class Music extends Actor
         
         if(Aladdin.level_qualified == true)
         {
-            
+            if( isMusicPlaying==true)
+            {
             myMusic.pause();
             myMusic=new GreenfootSound("level_complete.mp3");
             myMusic.play();
             Aladdin.music = true;
             Aladdin.level_qualified = false;
         }
+        }
 
         if(Greenfoot.mouseClicked(this))
         {
+
             if(myMusic.isPlaying())
             {
-            myMusic.pause();
-            setImage("unmute.png");
+                isMusicPlaying=false;
+                myMusic.pause();
+                setImage("mute.png");
             }
             else
             {
+                isMusicPlaying=true;
                 myMusic.playLoop();
-                setImage("mute.png");
+                setImage("unmute.png");
             }
         }
     }    

@@ -54,8 +54,11 @@ public class Aladdin extends Actor
             }
             else
             {
+                if( Music.isMusicPlaying==true)
+                 {
                 GreenfootSound myMusic=new GreenfootSound("smb_stomp.wav");
                 myMusic.play();
+            }
                 lives=lives-1;
                 getWorld().removeObject(getOneIntersectingObject(Hurdle2.class));
                 
@@ -96,8 +99,11 @@ public class Aladdin extends Actor
         
         if(getOneIntersectingObject(Grabber.class) != null){
              
+             if( Music.isMusicPlaying==true)
+              {
              GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
              myMusic.play();
+            }
              Counter.bonusPoints();
              getWorld().removeObject(getOneIntersectingObject(Grabber.class));
              //myMusic.stop();
