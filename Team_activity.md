@@ -136,3 +136,10 @@ Shripal Modani
 * Implementing observer pattern in the optimum way for the game.
 * Syncing the scores between levels.
 * Understanding scrum process in much better way.
+
+#Week-6
+
+### What did the team do the past week?
+
+
+
