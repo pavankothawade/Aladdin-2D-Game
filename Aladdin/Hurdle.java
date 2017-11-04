@@ -7,22 +7,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @version (a version number or a date)
  */
 public class Hurdle extends Actor
-{
-   
-    
+{ 
    int Hur_Speed = -8;
    int Hur_Speed1 = -5;
     public void act() 
-    {
-       
-        
+    {       
        setLocation(getX() + Hur_Speed, getY());
+
        //setLocation(getX()+Hur_Speed1, getY()-5);
        
        //setLocation(Greenfoot.getRandomNumber(getX())+Hur_Speed,getY());
-       
-        
-        
         
        // setLocation(getX()+ Greenfoot.getRandomNumber(5)-1, getY() + Greenfoot.getRandomNumber(40)-20);
 

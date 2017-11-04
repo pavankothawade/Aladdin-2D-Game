@@ -1,9 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Start here.
+ * The initital screen visible to user
  * 
- * @author (your name) 
+ * @author (Team - inferno) 
  * @version (a version number or a date)
  */
 public class Start extends Actor
@@ -14,10 +14,8 @@ public class Start extends Actor
      */
     public void act() 
     {
-      //setImage(new GreenfootImage("Collect more than 15 grabbers to complete level 1 and avoid the hurdles : ", 22, Color.WHITE, Color.BLACK));
         if (Greenfoot.mouseClicked(this)) {
         Greenfoot.setWorld(new AladdinWorld());
-        //setImage(new GreenfootImage("Collect more than 15 grabbers to complete level 1 and avoid the hurdles : ", 22, Color.WHITE, Color.BLACK));
     }
     }    
 }

@@ -1,9 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Level2Hurdle here.
+ * Level2 hurdles. These will be faster
  * 
- * @author (your name) 
+ * @author (team-inferno) 
  * @version (a version number or a date)
  */
 public class Level2Hurdle extends Actor
