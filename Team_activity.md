@@ -141,6 +141,10 @@ Shripal Modani
 
 ### What did the team do the past week?
 
+Pritam Meher
+* Worked on showing the end of the game
+* Integrated title page and Aladdin World
+
 Amita Mathkar
 * Worked on project based on user feedback received.
 * Fixed the bugs found in Sprint 1.
@@ -154,6 +158,9 @@ Pavan Kothawade
 
 
 ### What is the team going to do next week?
+Pritam Meher
+* Implementing Game level2 hurdles
+* Incorporating design patterns
 
 Amita Mathkar
 * To finalize and implement Design Patterns that fit for project.
@@ -166,6 +173,9 @@ Pavan Kothawade
 * To implemet design pattern in our game .
 
 ### What are the current blockers/challenges the team is facing?
+Pritam Meher
+* To integrate Game level1 with game level2
+* Finding appropriate design pattern for game level2
 
 Amita Mathkar
 

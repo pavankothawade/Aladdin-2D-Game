@@ -91,8 +91,20 @@ Amita Mathkar
 Vinit Singh
 Pritam Meher
 
-* Meeting was called to discuss the second level of the game.
-* Respective tasks were distributed amongst team members.
+Minutes of today's meeting:
+* Task board is designed as per professor's schedule.
+* Each team member is expected to create issues and move to proper column.
+* Following is the task assigned to team member:
+        - New world creation for level 2 - Amita
+        - New Grabber logic for level 2 - Amita
+        - New hurdles for level 2 - Vinit
+        - Transition from level 1 to level 2 - Pritam
+        - Re-implementation for score calculation logic and implement same logic for level 2 - Shripal
+        - Shooting implementation for aladdin - Pavan
+        - Scrolling Background - Pritam
+* Roles for this week:
+        Scrum master: Pritam
+        Product Owner: Vinit
 
 * Second Meeting
 
