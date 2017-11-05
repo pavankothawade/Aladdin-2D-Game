@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class AladdinWorld extends World
 {
     
-     int counter =0;
+     int counter = 0;
      private Background img0, img1;
       Counter counter1 = new Counter();
       
@@ -43,7 +43,7 @@ public class AladdinWorld extends World
       
     public void act() {
     
-        counter ++;
+        counter++;
         
         img0.scroll();
         img1.scroll();
@@ -64,7 +64,7 @@ public class AladdinWorld extends World
         }
         
         
-         if(counter %30 ==0)
+         if(counter %30 == 0)
         {
             Grabber g1=new Grabber();
             GreenfootImage img=g1.getImage();
@@ -80,17 +80,7 @@ public class AladdinWorld extends World
             //addObject(g1,getWidth(),50);
             addObject(g1,800,Greenfoot.getRandomNumber(100));
         }
-        
-        /*if(counter % 235==0)
-        {
-            Hurdle P4=new Hurdle();
-            GreenfootImage image =P4.getImage();
-            addObject(P4,getWidth(),100);
-        }
-        */
    
-        
-    
     }
 }
 
