@@ -21,7 +21,8 @@ public class Title extends World
         Start S1 = new Start();
         addObject(S1,200,getHeight()/2-200);
                 showText("Grab 10 golden coins to complete level 1",500,630);
-        
+        Instructions i1=new Instructions();
+        addObject(i1,100,getHeight()/2);
     }
     public void act()
     {
