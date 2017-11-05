@@ -56,7 +56,6 @@ Pritam Meher
 *Action Plan for next week for Team,
 	- Modification of user stories.
 	- Creation of UML diagrams for the game.
-	
 
 Location: MLK Library
 Week #4
@@ -81,11 +80,9 @@ We also decided to meet again in this week to discuss the further details and st
 
 Location: MLK Library
 
-* Week #5
-* In this meeting we finalized each member's role to follow SCRUM methodology and their task in project.
-* Each member took the responsibility to complete different modules in project.
-* User stories were build for level 1 of project.
+Week 6
 
+* First Meeting
 
 * Attendees Present:  
 Shripal Modani
@@ -94,7 +91,8 @@ Amita Mathkar
 Vinit Singh
 Pritam Meher
 
-
+* Meeting was called to discuss the second level of the game.
+* Respective tasks were distributed amongst team members.
 
 
 
