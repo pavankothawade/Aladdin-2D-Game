@@ -94,6 +94,18 @@ Pritam Meher
 * Meeting was called to discuss the second level of the game.
 * Respective tasks were distributed amongst team members.
 
+* Second Meeting
+
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
+
+* This meeting was called to figure out the problems we were facing in developing the game.
+* Discussions were also done regarding design patterns that needs to be incorporated
+
 
 
 
