@@ -146,6 +146,12 @@ Amita Mathkar
 * Fixed the bugs found in Sprint 1.
 * Integrated functionality of lives in level 1.
 
+Pavan Kothawade
+* Created user story for destroying hurdles functionality.
+* Created basic code for the same functionality.
+* Integrated code for destroying hurdles in game and pushed it on github.
+* Played role of developer and successfully implemented the user stories assigned to me.
+
 
 ### What is the team going to do next week?
 
@@ -154,6 +160,10 @@ Amita Mathkar
 * To find object images that can fit in game definition.
 * To focus more on next level of game to make it interesting.
 
+Pavan Kothawade
+* To make class diagram of the code in our game.
+* To refactor the code.
+* To implemet design pattern in our game .
 
 ### What are the current blockers/challenges the team is facing?
 
@@ -161,6 +171,9 @@ Amita Mathkar
 
 * To implement graphical animation of objects in game.
 * To manage time along with other projects.
+
+Pavan Kothawade
+* Not getting enough time as there are other projects as well.
 
 
 

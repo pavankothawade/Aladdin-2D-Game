@@ -15,6 +15,6 @@ Following would be deliverables in next sprint:
 * To work more on graphics in order to keep user involved in game.
 * To introduce more and variety of hurdles in level 2 to make level difficult than level 1.
 * Ideas to show progress on score board, so that players will be more interested in game.
-* 
+
 
 
