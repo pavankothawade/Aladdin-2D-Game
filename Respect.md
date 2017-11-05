@@ -30,3 +30,9 @@ Week #5
 * All members distributed modules of project and decided to work on it to release sprint 1.
 * Each team member worked on the modules assigned and then delivered their changes, other members reviewed the same and shared their views on that in next scheduled meeting.
 * I respect the committment of team members shown on Sprint review meeting.
+
+Week #6
+
+* Important role of each team member is to take feedback for sprint 1, fix bugs if any and do modifications as per feedback.
+* Each team member worked on previously assigned modules and delivered code changes based on feedback, other members reviewed the same.
+* Every team members dedicatedly worked on bug fixing and new development towards project.

@@ -141,5 +141,27 @@ Shripal Modani
 
 ### What did the team do the past week?
 
+Amita Mathkar
+* Worked on project based on user feedback received.
+* Fixed the bugs found in Sprint 1.
+* Integrated functionality of lives in level 1.
+
+
+### What is the team going to do next week?
+
+Amita Mathkar
+* To finalize and implement Design Patterns that fit for project.
+* To find object images that can fit in game definition.
+* To focus more on next level of game to make it interesting.
+
+
+### What are the current blockers/challenges the team is facing?
+
+Amita Mathkar
+
+* To implement graphical animation of objects in game.
+* To manage time along with other projects.
+
+
 
 
