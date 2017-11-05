@@ -21,10 +21,12 @@ public class Aladdin extends Actor
     public static boolean music = true;
     public static boolean level_qualified = false;
     public static boolean isPaused = false;
+    Apple apple= new Apple();
     //Counter counter1 = AladdinWorld.getCounter();
     public void act() 
     {
-        
+        shootOnCommand();
+
         if( getOneIntersectingObject(Hurdle.class) != null){
             if(lives<=0)
             {
@@ -139,5 +141,19 @@ public class Aladdin extends Actor
          music = false;
          Greenfoot.stop();
     }
+    
+   //to destroy hurdles
+    public void shootOnCommand(){
+        if(Greenfoot.isKeyDown("s"))
+        {
+            World myWorld= getWorld();
+            myWorld.addObject(apple, 0, 0);
+            apple.setLocation(getX(), getY());
+            
+            
+        }
+        
+    }
+
 
 }

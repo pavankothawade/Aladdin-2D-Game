@@ -7,4 +7,6 @@ comment2.params=
 comment2.target=void\ DispGameover()
 comment3.params=
 comment3.target=void\ DispLevelQualified()
-numComments=4
+comment4.params=
+comment4.target=void\ shootOnCommand()
+numComments=5
