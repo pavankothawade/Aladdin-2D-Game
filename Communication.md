@@ -33,3 +33,7 @@ Week #5
 Week #6
 * We met today and discussed about the level 2 design
 * Respective tasks were distributed to everyone and we are supposed to complete them before next meeting.
+* As per conclusions from the last meeting two of our members were stuck at a part and needed guidance on the respective tasks.
+* We met and discussed on the problems that we were facing . For eg score functionality was not working properly.
+* We met and worked on it.
+* Communication was a key factor in this week as we were facing many issues in building the game
