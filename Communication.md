@@ -37,3 +37,7 @@ Week #6
 * We met and discussed on the problems that we were facing . For eg score functionality was not working properly.
 * We met and worked on it.
 * Communication was a key factor in this week as we were facing many issues in building the game
+
+Week #7
+* We gathered at MLK library to discuss the next tasks to be accomplished itn this week.
+* We decided the design patterns that we are going to incorporate in our game.
