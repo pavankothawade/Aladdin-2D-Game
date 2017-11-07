@@ -90,7 +90,7 @@ public class Aladdin extends Actor
         DispGameover();
         }
         
-        if(getOneIntersectingObject(Grabber.class) != null){
+        if(getOneIntersectingObject(Grabber50.class) != null){
              
              if( Music.isMusicPlaying==true)
               {
@@ -98,7 +98,19 @@ public class Aladdin extends Actor
              myMusic.play();
             }
              Counter.bonusPoints();
-             getWorld().removeObject(getOneIntersectingObject(Grabber.class));
+             getWorld().removeObject(getOneIntersectingObject(Grabber50.class));
+             //myMusic.stop();
+        }
+        
+        if(getOneIntersectingObject(Grabber100.class) != null){
+             
+             if( Music.isMusicPlaying==true)
+              {
+             GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
+             myMusic.play();
+            }
+             Counter.bonusPoints();
+             getWorld().removeObject(getOneIntersectingObject(Grabber100.class));
              //myMusic.stop();
         }
         
@@ -115,8 +127,7 @@ public class Aladdin extends Actor
           dy = dy+g;  
     }  
     
-    private void DispGameover(){
-       
+    private void DispGameover(){      
       
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          music = false;
