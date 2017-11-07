@@ -94,7 +94,7 @@ Pritam Meher
 Minutes of today's meeting:
 * Task board is designed as per professor's schedule.
 * Each team member is expected to create issues and move to proper column.
-* Following is the task assigned to team member:
+* Following are the tasks assigned to each team member:
         - New world creation for level 2 - Amita
         - New Grabber logic for level 2 - Amita
         - New hurdles for level 2 - Vinit
@@ -117,6 +117,30 @@ Pritam Meher
 
 * This meeting was called to figure out the problems we were facing in developing the game.
 * Discussions were also done regarding design patterns that needs to be incorporated
+
+Week 7
+
+* First Meeting
+
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
+
+As we were not getting time to present physically for meeting so we decided to have meeting using zoom and we did the same. Following are the minutes of first meeting in week 7.
+In this week we have decided to implement the design patterns in our game which we studied in last week.
+Each team member is expected to make changes in code according to respective design pattern and create issues and move it to proper column.
+* Following are the design patterns assigned to each team member:
+    Pavan: Iterator or Strategy Pattern
+    Vinit: Factory Pattern
+    Pritam: Command Pattern
+    Amita: Template or State Pattern
+    Shripal: Observer Pattern
+* Roles for this week:
+    Scrum master: Pavan
+    Product Owner: Amita
 
 
 
