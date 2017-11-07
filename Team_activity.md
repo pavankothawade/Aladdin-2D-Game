@@ -156,6 +156,12 @@ Pavan Kothawade
 * Integrated code for destroying hurdles in game and pushed it on github.
 * Played role of developer and successfully implemented the user stories assigned to me.
 
+Vinit Singh
+* Played the role as a scrum master.
+* Analyzed designed pattern that can be introduced in Game.
+* Bug fix for display.
+
+
 
 ### What is the team going to do next week?
 Pritam Meher
@@ -172,6 +178,10 @@ Pavan Kothawade
 * To refactor the code.
 * To implemet design pattern in our game .
 
+Vinit Singh
+* Implement Design Pattern.
+* Test Cases for code developed.
+
 ### What are the current blockers/challenges the team is facing?
 Pritam Meher
 * To integrate Game level1 with game level2
@@ -184,6 +194,10 @@ Amita Mathkar
 
 Pavan Kothawade
 * Not getting enough time as there are other projects as well.
+
+Vinit Singh
+* Design and view of Level2.
+* Transition from Level 1 to Level 2.
 
 #Week-7
 ### What did the team do the past week?
@@ -208,6 +222,10 @@ Shripal Modani
 * Added Game end.
 * Added Observer pattern in the game
 
+Vinit Singh
+* Implemented factory Method.
+* Designed USER STORIES for Level2.
+
 ### What is the team going to do next week?
 
 Pavan Kothawade
@@ -222,6 +240,9 @@ Shripal Modani
 * Integrate Observer pattern with the game.
 * Write test cases for the functionalities of Aladdin
 
+Vinit Singh
+* Class diagram for Level1.
+
 ### What are the current blockers/challenges the team is facing?
 
 Pavan Kothawade
@@ -233,3 +254,6 @@ Amita Mathkar
 
 Shripal Modani
 * Change of PC causing Greenfoot running smoothly.
+
+Vinit Singh
+* Level Transition.
