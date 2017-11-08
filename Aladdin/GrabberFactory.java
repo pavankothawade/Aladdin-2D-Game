@@ -22,9 +22,10 @@ public class GrabberFactory extends Creator
      public Actor getActor(){
          if(this.type == "Type1")
          return new Grabber50();
-         else
+         else if(this.type == "Type2")
          return new Grabber100();
-         
+         else
+         return new Grabber();
          
          
     //return new Grabber();

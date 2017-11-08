@@ -27,10 +27,13 @@ public class Counter extends Actor
                 score += 1;
     }
     
-    public static void bonusPoints()
+    public static void bonusPoints(int points)
     {
-        score = score + 30;
-        gameOver_counter+=1;
+        score = score + points;
+        if(points!=50 ||points!=100)
+        {   
+            gameOver_counter+=1;
+        }
      //   Counter.act();
     }
     

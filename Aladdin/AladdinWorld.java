@@ -79,7 +79,7 @@ public class AladdinWorld extends World
         }
         
         
-         if(counter %75 == 0)
+        /* if(counter %75 == 0)
         {
              
            Creator G2 = new GrabberFactory();
@@ -87,7 +87,7 @@ public class AladdinWorld extends World
             GreenfootImage img=G2.getActor().getImage();
             //addObject(g1,getWidth(),50);
             addObject(G2.getActor(),800,Greenfoot.getRandomNumber(100));
-        }
+        }*/
    
         if(counter %100 == 0)
         {
