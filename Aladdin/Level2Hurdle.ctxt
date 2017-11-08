@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Level2Hurdle
-comment0.text=\r\n\ Level2\ hurdles.\ These\ will\ be\ faster\r\n\ \r\n\ @author\ (team-inferno)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\n\ Level2\ hurdles.\ These\ will\ be\ faster\n\ \n\ @author\ (team-inferno)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=Level2Hurdle()
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Level2Hurdle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Level2Hurdle\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=3
