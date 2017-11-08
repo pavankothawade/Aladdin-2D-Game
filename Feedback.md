@@ -17,5 +17,14 @@ Within the team roles were classifed as Scrum Master and product owner and based
 Week6:
 Team delivered  Sprint1 - Defination of done with a good Sprint Review. Feedback from each team member was taken to define done for SPRINT2 starting this week.
 
+Week7:
+During the team discussion, feeback regarding Design Pattern were taken, accordingly team had to work and release the same in the upcoming SPRINT3.
+The game would consists of following Design Patterns:
+Factory Method
+Template 
+Observer
+Command
+Stratergy
+
 
 
