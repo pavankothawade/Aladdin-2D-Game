@@ -133,7 +133,7 @@ As we were not getting time to present physically for meeting so we decided to h
 In this week we have decided to implement the design patterns in our game which we studied in last week.
 Each team member is expected to make changes in code according to respective design pattern and create issues and move it to proper column.
 * Following are the design patterns assigned to each team member:
-    Pavan: Iterator or Strategy Pattern
+    Pavan: State Pattern
     Vinit: Factory Pattern
     Pritam: Command Pattern
     Amita: Template or State Pattern
