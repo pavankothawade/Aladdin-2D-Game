@@ -30,7 +30,7 @@ public class AladdinWorld extends World
         addObject(counter1,130,20);
         Music m1=new Music();
         addObject(m1,getWidth()-20,20);
-              Counter.setStartScore();
+        Counter.setStartScore();
               
 
     }
@@ -51,34 +51,42 @@ public class AladdinWorld extends World
         
        if(counter % 50 == 0)
         {
-           Hurdle P1 = new Hurdle();
+          // Hurdle P1 = new Hurdle();
+          Creator P1 = new HurdleFactory();
+    
            
-           GreenfootImage image = P1.getImage();
+         GreenfootImage image = P1.getActor().getImage();
            //addObject(P1,getWidth(),getHeight()/2 + image.getHeight()/2);
-           addObject(P1,779,Greenfoot.getRandomNumber(360));
-           addObject(P1,779,Greenfoot.getRandomNumber(100));
-             Hurdle2 P2 = new Hurdle2();
+           addObject(P1.getActor(),779,Greenfoot.getRandomNumber(360));
+           addObject(P1.getActor(),779,Greenfoot.getRandomNumber(100));
+             
+          // Hurdle2 P2 = new Hurdle2();
+          Creator P2 = new Hurdle2Factory();
                           
-           addObject(P2,900,Greenfoot.getRandomNumber(360));
-           addObject(P2,900,Greenfoot.getRandomNumber(100));  
+           addObject(P2.getActor(),900,Greenfoot.getRandomNumber(360));
+           addObject(P2.getActor(),900,Greenfoot.getRandomNumber(100));  
         }
         
         
          if(counter %30 == 0)
         {
-            Grabber g1=new Grabber();
-            GreenfootImage img=g1.getImage();
+           // Grabber g1=new Grabber();
+           Creator G1 = new GrabberFactory();
+           
+            GreenfootImage img=G1.getActor().getImage();
             //addObject(g1,getWidth(),50);
-            addObject(g1,669,Greenfoot.getRandomNumber(260));
+            addObject(G1.getActor(),669,Greenfoot.getRandomNumber(260));
         }
         
         
          if(counter %75 == 0)
         {
-            Grabber g1=new Grabber();
-            GreenfootImage img=g1.getImage();
+             
+           Creator G2 = new GrabberFactory();
+           
+            GreenfootImage img=G2.getActor().getImage();
             //addObject(g1,getWidth(),50);
-            addObject(g1,800,Greenfoot.getRandomNumber(100));
+            addObject(G2.getActor(),800,Greenfoot.getRandomNumber(100));
         }
    
     }

@@ -14,11 +14,6 @@ public class Hurdle extends Actor
     {       
        setLocation(getX() + Hur_Speed, getY());
 
-       //setLocation(getX()+Hur_Speed1, getY()-5);
-       
-       //setLocation(Greenfoot.getRandomNumber(getX())+Hur_Speed,getY());
-        
-       // setLocation(getX()+ Greenfoot.getRandomNumber(5)-1, getY() + Greenfoot.getRandomNumber(40)-20);
 
 
     }    
