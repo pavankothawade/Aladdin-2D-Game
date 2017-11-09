@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=338d6569a1a58b0366b3da0ec78b2a6be0224dfa
+>>>>>>>=0e65b994d841e185d73135f5789a4dd03f4d2c3a
 class.Aladdin.image=aladdin-abu-carpet.gif
 class.Aladdin.superclass=greenfoot.Actor
 class.AladdinWorld.image=arabian-nightsBackGround.png
@@ -126,25 +126,14 @@ dependency8.type=UsesDependency
 dependency9.from=Instructions
 dependency9.to=InstructionWorld
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-mainWindow.height=728
-mainWindow.width=1312
-mainWindow.x=0
-mainWindow.y=0
-=======
-editor.fx.0.height=722
-editor.fx.0.width=800
-editor.fx.0.x=320
-editor.fx.0.y=59
-mainWindow.height=900
-mainWindow.width=1305
-mainWindow.x=59
-mainWindow.y=120
->>>>>>> 0e65b994d841e185d73135f5789a4dd03f4d2c3a
+editor.fx.0.height=747
+editor.fx.0.width=818
+editor.fx.0.x=94
+editor.fx.0.y=240
+mainWindow.height=1027
+mainWindow.width=1297
+mainWindow.x=285
+mainWindow.y=31
 package.numDependencies=29
 package.numTargets=21
 project.charset=UTF-8
