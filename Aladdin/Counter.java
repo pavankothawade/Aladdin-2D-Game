@@ -24,12 +24,12 @@ public class Counter extends Actor
     
     public static void addScore()
     {
-        score += 11;
+                score += 1;
     }
     
     public static void bonusPoints()
     {
-        score = score + 300;
+        score = score + 30;
         gameOver_counter+=1;
      //   Counter.act();
     }

@@ -12,6 +12,7 @@ public class Aladdin extends Actor
      * Act - do whatever the Aladdin wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    int counter=0;
     
     double dy = 0;
     double g = 1.3;
@@ -25,6 +26,19 @@ public class Aladdin extends Actor
     //Counter counter1 = AladdinWorld.getCounter();
     public void act() 
     {
+        
+        counter ++;
+         
+         if(counter %25 == 0)
+         {
+             Counter.addScore();
+           
+       }
+         
+        
+        
+        
+        
         shootOnCommand();
 
         if( getOneIntersectingObject(Hurdle.class) != null){
@@ -77,14 +91,14 @@ public class Aladdin extends Actor
         if(Greenfoot.isKeyDown("up")== true)
         {
          dy= speed;
-         Counter.addScore();
+        // Counter.addScore();
         }
         
         
        if(Greenfoot.isKeyDown("right")== true)
         {
          setRotation(20);
-         Counter.addScore();
+         //Counter.addScore();
         } 
         
         if(Greenfoot.isKeyDown("left")== true)
