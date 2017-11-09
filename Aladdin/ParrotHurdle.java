@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Hurdle extends Actor
+public class ParrotHurdle extends Hurdles
 { 
    int Hur_Speed = -8;
    int Hur_Speed1 = -5;

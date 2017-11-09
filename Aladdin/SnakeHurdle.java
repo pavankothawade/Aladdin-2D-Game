@@ -6,11 +6,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Hurdle2 extends Actor 
+public class SnakeHurdle extends Hurdles 
 {
     int Hur_Speed2 = -8;
     int Hur_Speed3 = -5;
-    public Hurdle2(){
+    public SnakeHurdle(){
     
     GreenfootImage image = getImage();
         image.scale(image.getWidth() - 80, image.getHeight() - 80);
@@ -26,6 +26,7 @@ public class Hurdle2 extends Actor
     {
         setLocation(getX() + Hur_Speed2, getY());
         //setLocation(200 + Hur_Speed2, 100);
+       
         
     }    
  

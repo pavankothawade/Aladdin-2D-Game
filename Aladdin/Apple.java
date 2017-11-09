@@ -11,26 +11,25 @@ public class Apple extends Actor
     /**
      * Act - do whatever the Apple wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
+     *
      */
+  
     public void act() 
     {
         
         move(10);
-        Actor Hurdle= getOneIntersectingObject(Hurdle.class);
-       
-        if(Hurdle != null)
+        Actor ParrotHurdle= getOneIntersectingObject(ParrotHurdle.class);
+        Actor SnakeHurdle= getOneIntersectingObject(SnakeHurdle.class);
+        Actor Apple= getOneObjectAtOffset(0, 0, Apple.class);
+        if(ParrotHurdle != null || SnakeHurdle != null || Apple!= null)
         {
             World myWorld= getWorld();
-            myWorld.removeObject(Hurdle);
+            myWorld.removeObject(ParrotHurdle);
+            myWorld.removeObject(SnakeHurdle);
+            myWorld.removeObject(Apple);
             
         }
-        Actor Hurdle2= getOneIntersectingObject(Hurdle2.class);
-        if(Hurdle2 != null)
-        {
-            World myWorld= getWorld();
-            myWorld.removeObject(Hurdle2);
-            
-        }
-
+        
+        
     }    
 }

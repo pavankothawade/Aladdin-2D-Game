@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=HurdleFactory
+comment0.target=SnakeHurdleFactory
 comment1.params=
 comment1.target=greenfoot.Actor\ getActor()
 numComments=2
