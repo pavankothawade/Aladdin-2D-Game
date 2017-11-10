@@ -1,11 +1,12 @@
 
 
-public Score_increment implements Observer
+public class Score_increment implements Observer
 {
-	
-		public void update(int score)
-		{
-			score = score + 5;
-		}
-	
+        Counter c1 = new Counter();
+        public void update(int score, int lives)
+        {
+            c1.score = c1.score + score;
+            //lives is untouched
+        }
+    
 }

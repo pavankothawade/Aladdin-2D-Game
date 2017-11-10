@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Score_increment
+comment1.params=score\ lives
+comment1.target=void\ update(int,\ int)
+numComments=2
