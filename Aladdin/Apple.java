@@ -26,10 +26,9 @@ public class Apple extends Actor
             World myWorld= getWorld();
             myWorld.removeObject(ParrotHurdle);
             myWorld.removeObject(SnakeHurdle);
-            myWorld.removeObject(Apple);
-            
+            myWorld.removeObject(Apple);   
         }
-        
+    
         
     }    
 }

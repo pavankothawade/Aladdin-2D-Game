@@ -156,12 +156,16 @@ public class Aladdin extends Actor
     
    //to destroy hurdles
     public void shootOnCommand(){
+        
         if(Greenfoot.isKeyDown("s"))
+        {
+            if(Counter.apple_count>0)
         {
             World myWorld= getWorld();
             myWorld.addObject(apple, 0, 0);
             apple.setLocation(getX(), getY());
-            
+            Counter.apple_count-=1;
+        }
             
         }
         

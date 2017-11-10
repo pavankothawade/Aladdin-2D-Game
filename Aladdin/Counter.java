@@ -15,10 +15,11 @@ public class Counter extends Actor
      */
     public static int score = 0;
         public static int gameOver_counter = 0;
+        public static int apple_count = 0;
     public void act() 
     {
         // Add your action code here.
-        setImage(new GreenfootImage("Score : "+score +"    Coins:"+gameOver_counter+ "    Lives: "+Aladdin.lives, 22, Color.WHITE, Color.BLACK));
+        setImage(new GreenfootImage("Score : "+score +"    Coins:"+gameOver_counter+ "    Lives: "+Aladdin.lives+ "    Apple_count: "+apple_count, 22, Color.WHITE, Color.BLACK));
         //setImage(new GreenfootImage("Grabber : "+gameOver_counter , 20, Color.WHITE, Color.BLACK));
     }    
     
@@ -34,6 +35,11 @@ public class Counter extends Actor
         {   
             gameOver_counter+=1;
         }
+        
+        if(points==50)
+        {
+            apple_count+=1;
+        }
      //   Counter.act();
     }
     
@@ -41,6 +47,7 @@ public class Counter extends Actor
     {
         score = 0;
         gameOver_counter=0;
+        apple_count=0;
         Aladdin.lives=3;
     }
     
