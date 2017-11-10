@@ -4,6 +4,7 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
+import greenfoot.*;
 public class Lives_Checker implements Observer 
 {
     // instance variables - replace the example below with your own
@@ -16,19 +17,20 @@ public class Lives_Checker implements Observer
     {
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+    /**Here this observer checks how many lives are remaining. 
+     * if no lives are remaining the game stops
      */
-	 Counter c1=  new Counter();
+     Counter c1=  new Counter();
     public void update(int score,int live)
-	{
-		if(lives < 0)
+    {
+        if(live < 0)
 		{
-			DispGameover();
+		    DispGameover();
 		}
-		
 	}
+	
+	private void DispGameover(){
+	     
+         Greenfoot.stop();
+    }
 }
