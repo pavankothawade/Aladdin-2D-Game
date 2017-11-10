@@ -25,23 +25,23 @@ public class Music extends Actor
             firstTurn=false;
         }
         
-        if(Aladdin.music == false)
+        if(AladdinHero.music == false)
         {
             myMusic.pause();
             myMusic=new GreenfootSound("smb_bowserfalls.wav");
             myMusic.play();
-            Aladdin.music = true;
+            AladdinHero.music = true;
         }
         
-        if(Aladdin.level_qualified == true)
+        if(AladdinHero.level_qualified == true)
         {
             if( isMusicPlaying==true)
             {
             myMusic.pause();
             myMusic=new GreenfootSound("level_complete.mp3");
             myMusic.play();
-            Aladdin.music = true;
-            Aladdin.level_qualified = false;
+            AladdinHero.music = true;
+            AladdinHero.level_qualified = false;
         }
         }
 

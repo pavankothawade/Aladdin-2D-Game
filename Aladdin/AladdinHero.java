@@ -1,5 +1,5 @@
 import greenfoot.*;
-public class Aladdin extends Actor
+public class AladdinHero extends Actor
 {
     int counter=0;
     double dy = 0;
@@ -9,10 +9,36 @@ public class Aladdin extends Actor
     public static boolean music = true;
     public static boolean level_qualified = false;
     public static boolean isPaused = false;
+    AladdinState hasLives;
+	AladdinState noLives;
+	AladdinState aladdinstate;
+	int noOfLives=3;
     
     Apple apple= new Apple();
     GreenfootImage i = getImage();
     GameOver gameOver = new GameOver();
+    public AladdinHero(){
+		hasLives= new HasLives(this);
+		noLives= new NoLives(this);
+		aladdinstate= hasLives;
+		
+		if(noOfLives == 0){
+			aladdinstate= noLives;
+		}
+	}
+	void setAladdinState(AladdinState newAladdinState){
+		aladdinstate= newAladdinState;
+	}
+	public AladdinState getHasLivesState(){
+		System.out.println("In HasLivesState");
+		return hasLives;
+		
+	} 
+	public AladdinState getNoLivesState(){
+		System.out.println("In NoLivesState");
+		return noLives;
+		
+	} 
     
     public void act() 
     {

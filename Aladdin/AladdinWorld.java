@@ -25,7 +25,7 @@ public class AladdinWorld extends World
         addObject(img0, getWidth ()/2, getHeight()/2);
         img1 = new Background();
         addObject(img1, getWidth() + getWidth()/2, getHeight()/2);
-        Aladdin B1 = new Aladdin();
+        AladdinHero B1 = new AladdinHero();
         addObject(B1,100,getHeight()/2);
         addObject(counter1,130,20);
         Music m1=new Music();
