@@ -32,3 +32,11 @@ As the approach of starting with a simple functionality and
 integrating it with the entire project has been the key highlight of last week. 
 In this week we are going to add new level in the game. We will be communicating more frequently, 
 to understand and develop the level 2 only as is required. 
+
+Week 7:
+
+As Design Patterns were implemented, there is a primary aim to keep the github code running at each stage,
+so that we have a running copy in Github all times.
+We have asked members to create separate folder, if they want to learn and experiment with design pattern
+they are going to implement in the Game, so that even if there is need for help, other members can see and
+add changes to their design patterns.
