@@ -185,6 +185,26 @@ Amita Mathkar
 Pavan Kothawade
 * Not getting enough time as there are other projects as well.
 
+#Week-7
+### What did the team do the past week?
 
+Pavan Kothawade
+* Created issue for destroying hurdles functionality.
+* Created basic code for the same functionality.
+* Integrated code for destroying hurdles in game and pushed it on github.
+* Played role of scrummaster and successfully implemented the user stories assigned to me.
+* Refactored hurdle code.
+* Implemented state design pattern in game. 
+
+### What is the team going to do next week?
+
+Pavan Kothawade
+* To refactor the code in depth
+* To add advance functionality in game and try to implement level 2
+
+### What are the current blockers/challenges the team is facing?
+
+Pavan Kothawade
+* Not getting enough time as there are other projects as well.
 
 
