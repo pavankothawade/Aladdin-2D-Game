@@ -36,3 +36,9 @@ Week #6
 * Important role of each team member is to take feedback for sprint 1, fix bugs if any and do modifications as per feedback.
 * Each team member worked on previously assigned modules and delivered code changes based on feedback, other members reviewed the same.
 * Every team members dedicatedly worked on bug fixing and new development towards project.
+
+Week #7
+
+* Important role of each team member this wek is to implement design patterns in project.
+* Each team member worked on previously assigned modules and delivered code changes if applicable, other members reviewed the same. Along with that implemented design patterns.
+* Every team members simultaneously worked on bug fixing and new advance development towards project.
