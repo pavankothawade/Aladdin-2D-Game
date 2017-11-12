@@ -196,15 +196,29 @@ Pavan Kothawade
 * Refactored hurdle code.
 * Implemented state design pattern in game. 
 
+Amita Mathkar
+* Played the role of Product owner to design new user stories and to make sure that completed the pending user stories at the same time.
+* Refracted the bonus points code and enabling user to grab more points with varieety of hurdles.
+* Implemented Template design pattern.
+* Refracted destroying hurdles functionality implemented by one of the Team member to make the game more interesting.
+
 ### What is the team going to do next week?
 
 Pavan Kothawade
 * To refactor the code in depth
 * To add advance functionality in game and try to implement level 2
 
+Amita Mathkar
+* To refactor the code so that it becomes reusable.
+* To add final graphics in game in order to make it more attractive and try to implement level 2
+
 ### What are the current blockers/challenges the team is facing?
 
 Pavan Kothawade
 * Not getting enough time as there are other projects as well.
+
+Amita Mathkar
+* Facing difficulty to manage with other projects.
+* Some functionalities takes more time to implement as Greenfoot is not much familiar IDE for me to use.
 
 
