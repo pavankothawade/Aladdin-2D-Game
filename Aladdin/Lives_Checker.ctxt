@@ -2,7 +2,7 @@
 comment0.target=Lives_Checker
 comment1.params=
 comment1.target=Lives_Checker()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Lives_Checker\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Lives_Checker\r\n
 comment2.params=score\ live
 comment2.target=void\ update(int,\ int)
 comment3.params=

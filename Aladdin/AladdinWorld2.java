@@ -15,12 +15,17 @@ public class AladdinWorld2 extends World
      */
     
     int counter =0;
+     private Background2 img2, img3;
     
     public AladdinWorld2()
     {    
-        
+        super(650, 350, 1, false); 
+        img2 = new Background2();
+        addObject(img2, getWidth ()/2, getHeight()/2);
+        img3 = new Background2();
+        addObject(img3, getWidth() + getWidth()/2, getHeight()/2);
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(600, 400, 1); 
+      
         Greenfoot.start();
         AladdinHero a=new AladdinHero();
         addObject(a,200,200);
@@ -29,7 +34,8 @@ public class AladdinWorld2 extends World
     public void act() {
     
         counter ++;
-        
+        img2.scroll();
+        img3.scroll();
        
       
         
