@@ -17,15 +17,8 @@ public class InstructionWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(720, 400, 1); 
-        Start s1 = new Start();
+        Back B1 = new Back();
+        addObject(B1,100,getHeight()/2-100);
         
-        
-        addObject(s1, getWidth()/2-105, getHeight()/2-90);
     }
-    public void act(){
-     if(Greenfoot.isKeyDown("enter")) {
-        Greenfoot.setWorld(new AladdinWorld());
-       
-    }
-}
 }

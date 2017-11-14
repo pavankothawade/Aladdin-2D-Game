@@ -16,18 +16,13 @@ public class Instructions extends Actor
     GreenfootImage image = getImage();
         image.scale(image.getWidth() - 100, image.getHeight() - 100);
         setImage(image);
-        
     
     }
     public void act() 
     {
          if (Greenfoot.mouseClicked(this)) {
         Greenfoot.setWorld(new InstructionWorld());
-        
-    }
-   
-      
-    // Add your action code here.
-      
+        // Add your action code here.
+    }    
 }
 }

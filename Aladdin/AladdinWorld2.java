@@ -16,7 +16,7 @@ public class AladdinWorld2 extends World
     
     int counter =0;
      private Background2 img2, img3;
-    
+    Counter counter2 = new Counter();
     public AladdinWorld2()
     {    
         super(650, 350, 1, false); 
@@ -25,7 +25,7 @@ public class AladdinWorld2 extends World
         img3 = new Background2();
         addObject(img3, getWidth() + getWidth()/2, getHeight()/2);
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-      
+      addObject(counter2,130,20);
         Greenfoot.start();
         AladdinHero a=new AladdinHero();
         addObject(a,200,200);
@@ -55,15 +55,18 @@ public class AladdinWorld2 extends World
            //addObject(P1,getWidth(),getHeight()/2 + image.getHeight()/2);
            addObject(B1.getActor(),779,Greenfoot.getRandomNumber(360));
            addObject(B1.getActor(),779,Greenfoot.getRandomNumber(100));
-             
+           
+           
+           
+           
           // Hurdle2 P2 = new Hurdle2();
           Creator P2 = new SnakeHurdleFactory();
-                          
+             
            addObject(P2.getActor(),900,Greenfoot.getRandomNumber(360));
            addObject(P2.getActor(),900,Greenfoot.getRandomNumber(100));
            
         }
-        
+       
         
          
    
