@@ -101,18 +101,24 @@ public class AladdinWorld extends World
         
         if(Counter.gameOver_counter >= 5)
         {
-            DispLevelQualified();
-            Greenfoot.delay(50);
             
-           Greenfoot.setWorld(new AladdinWorld2());         
+            DispLevelQualified();
+            //Greenfoot.delay(50);
+            
+           //Greenfoot.setWorld(new AladdinWorld2());         
         }
     }
     
      private void DispLevelQualified(){
+         /*
          gameOver.setImage(new GreenfootImage("level_complete.jpg"));        
          addObject(gameOver, getWidth()/2, getHeight()/2);
          AladdinHero.level_qualified = true;        
          AladdinHero.music = false;
+         */
+        
+        Greenfoot.setWorld(new Title2());
+
         }
 }
 
