@@ -26,5 +26,7 @@ Observer
 Command
 Stratergy
 
+Week8:
+In this week we would be finalizing the game built. Accordingly a round of feedback was conducted to understand what all things need to be done to get level2 up and functional. As per the discussion, grabber and hurdle logic was decided for level2. 
 
 
