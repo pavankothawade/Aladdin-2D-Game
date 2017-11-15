@@ -1,5 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
+import java.awt.*;
 /**
  * Write a description of class AladdinWorld2 here.
  * 
@@ -30,6 +30,7 @@ public class AladdinWorld2 extends World
     
         counter ++;
         
+       
       
         
        if(counter % 50 == 0)

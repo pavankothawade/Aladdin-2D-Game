@@ -98,6 +98,12 @@ public class AladdinWorld extends World
             //addObject(g1,getWidth(),50);
             addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
         }
+        
+        if(Counter.gameOver_counter >= 10)
+        {
+            Greenfoot.stop();
+           Greenfoot.setWorld(new AladdinWorld2());         
+        }
     }
 }
 

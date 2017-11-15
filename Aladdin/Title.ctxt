@@ -3,11 +3,7 @@ comment0.target=Title
 comment0.text=\n\ Write\ a\ description\ of\ class\ Title\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=
 comment1.target=Title()
-<<<<<<< HEAD
-comment1.text=\r\n\ \ \ \ private\ PlayButton\ pb;\r\n\ \ \ \ private\ PlayCommand\ pc;\r\n\ \ \ \ private\ HelpButton\ hb;\r\n\ \ \ \ private\ HelpCommand\ hc;\r\n
-=======
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Title.\n\ \n
->>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
+comment1.text=\n\ \ \ \ private\ PlayButton\ pb;\n\ \ \ \ private\ PlayCommand\ pc;\n\ \ \ \ private\ HelpButton\ hb;\n\ \ \ \ private\ HelpCommand\ hc;\n
 comment2.params=
 comment2.target=void\ act()
 numComments=3

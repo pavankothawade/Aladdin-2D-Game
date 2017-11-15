@@ -159,11 +159,19 @@ public class AladdinHero extends Actor
            Greenfoot.stop();  // Pause the game
         } 
         
-          if( Counter.gameOver_counter==10){
-              DispLevelQualified();
-        }
-        dy = dy+g;  
+         // if( Counter.gameOver_counter==10){
+         //     DispLevelQualified();
+        //}
+        dy = dy+g;
+        
+        //if(Counter.gameOver_counter >= 1)
+        //{
+          //  Greenfoot.stop();
+         //  Greenfoot.setWorld(new AladdinWorld2());         
+        //}
     }  
+    
+    
     
     private void DispGameover(){      
        
@@ -173,7 +181,7 @@ public class AladdinHero extends Actor
          music = false;
          
          Greenfoot.stop();
-                  Greenfoot.setWorld(new AladdinWorld2());
+                  
          
     }
     

@@ -120,7 +120,7 @@ public class Aladdin extends Actor
              GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
              myMusic.play();
             }
-             Counter.bonusPoints();
+             Counter.bonusPoints(1);
              getWorld().removeObject(getOneIntersectingObject(Grabber.class));
              //myMusic.stop();
         }
@@ -132,9 +132,10 @@ public class Aladdin extends Actor
            Greenfoot.stop();  // Pause the game
         } 
         
-          if( Counter.gameOver_counter==10){
-        DispLevelQualified();
-        }
+       //   if( Counter.gameOver_counter==10){
+      //Greenfoot.setWorld(new AladdinWorld2());         
+              //  DispLevelQualified();
+       // }
           dy = dy+g;  
     }  
     
