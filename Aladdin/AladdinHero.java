@@ -10,35 +10,35 @@ public class AladdinHero extends Actor
     public static boolean level_qualified = false;
     public static boolean isPaused = false;
     AladdinState hasLives;
-	AladdinState noLives;
-	AladdinState aladdinstate;
-	int noOfLives=3;
+    AladdinState noLives;
+    AladdinState aladdinstate;
+    int noOfLives=3;
     
     Apple apple= new Apple();
     GreenfootImage i = getImage();
     GameOver gameOver = new GameOver();
     public AladdinHero(){
-		hasLives= new HasLives(this);
-		noLives= new NoLives(this);
-		aladdinstate= hasLives;
-		
-		if(noOfLives == 0){
-			aladdinstate= noLives;
-		}
-	}
-	void setAladdinState(AladdinState newAladdinState){
-		aladdinstate= newAladdinState;
-	}
-	public AladdinState getHasLivesState(){
-		System.out.println("In HasLivesState");
-		return hasLives;
-		
-	} 
-	public AladdinState getNoLivesState(){
-		System.out.println("In NoLivesState");
-		return noLives;
-		
-	} 
+        hasLives= new HasLives(this);
+        noLives= new NoLives(this);
+        aladdinstate= hasLives;
+        
+        if(noOfLives == 0){
+            aladdinstate= noLives;
+        }
+    }
+    void setAladdinState(AladdinState newAladdinState){
+        aladdinstate= newAladdinState;
+    }
+    public AladdinState getHasLivesState(){
+        System.out.println("In HasLivesState");
+        return hasLives;
+        
+    } 
+    public AladdinState getNoLivesState(){
+        System.out.println("In NoLivesState");
+        return noLives;
+        
+    } 
     
     public void act() 
     {
@@ -162,23 +162,38 @@ public class AladdinHero extends Actor
           if( Counter.gameOver_counter==10){
               DispLevelQualified();
         }
-          dy = dy+g;  
+        dy = dy+g;  
     }  
     
     private void DispGameover(){      
-      
+       
+
+        
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          music = false;
+         
          Greenfoot.stop();
+                  Greenfoot.setWorld(new AladdinWorld2());
+         
     }
     
     private void DispLevelQualified(){
+        
+        
          gameOver.setImage(new GreenfootImage("level_complete.jpg"));
+         
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          level_qualified = true;
+         
          music = false;
-         Greenfoot.stop();
-    }
+         
+         
+         
+        
+         
+         
+        }
+    
     
    //to destroy hurdles
     public void shootOnCommand(){

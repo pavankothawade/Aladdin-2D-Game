@@ -13,6 +13,15 @@ public class Title extends World
      * Constructor for objects of class Title.
      * 
      */
+    
+    /*
+    private PlayButton pb;
+    private PlayCommand pc;
+    private HelpButton hb;
+    private HelpCommand hc;
+    */
+    
+    
     public Title()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.

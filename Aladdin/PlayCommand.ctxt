@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PlayCommand
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PlayCommand\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=r1
+comment1.target=void\ setReceiver(Receiver)
+comment2.params=
+comment2.target=void\ execute()
+numComments=3
