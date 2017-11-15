@@ -1,8 +1,14 @@
 #Greenfoot properties
+<<<<<<< HEAD
 #Tue Nov 14 18:29:45 PST 2017
 target49.type=ClassTarget
 target24.type=ClassTarget
 target16.name=Background
+=======
+#Sat Nov 11 23:18:53 PST 2017
+target24.type=AbstractTarget
+target16.name=Score_increment
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 class.Start.superclass=greenfoot.Actor
 target43.name=Level2Hurdle
 target11.typeParameters=
@@ -148,7 +154,10 @@ target13.type=ClassTarget
 dependency41.to=ParrotHurdle
 target27.typeParameters=
 world.lastInstantiated=Title
+<<<<<<< HEAD
 target40.type=ClassTarget
+=======
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 target23.y=0
 target23.x=0
 target32.name=Lives_Checker
@@ -187,6 +196,7 @@ target19.name=Instructions
 target48.y=0
 target48.x=0
 target35.typeParameters=
+<<<<<<< HEAD
 target46.name=Timer
 dependency24.to=SnakeHurdle
 target21.name=Title2
@@ -194,6 +204,12 @@ target48.height=50
 target40.y=0
 dependency36.from=PlayButton
 target40.x=0
+=======
+dependency24.to=ParrotHurdleFactory
+target21.name=SnakeHurdle
+dependency36.from=GrabberFactory
+publish.updateDesc=
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 target18.height=50
 target13.width=100
 class.AladdinHero.superclass=greenfoot.Actor
@@ -503,6 +519,7 @@ target30.y=0
 class.Animal.superclass=greenfoot.Actor
 target30.x=0
 class.info.superclass=greenfoot.Actor
+class.Level.superclass=greenfoot.World
 dependency14.from=AladdinHero
 target8.type=AbstractTarget
 dependency17.to=NoLives
@@ -545,9 +562,15 @@ target46.type=ClassTarget
 target18.showInterface=false
 target38.name=ParrotHurdle
 target21.type=ClassTarget
+<<<<<<< HEAD
 mainWindow.y=-9
 target13.name=PlayButton
 mainWindow.x=-9
+=======
+mainWindow.y=23
+target13.name=Lives_Checker
+mainWindow.x=0
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 target16.y=0
 target16.x=0
 dependency28.from=AladdinWorld
@@ -611,12 +634,19 @@ target11.height=50
 target8.width=80
 dependency32.type=UsesDependency
 target36.typeParameters=
+<<<<<<< HEAD
 target47.type=InterfaceTarget
 editor.fx.0.width=818
 target39.name=SnakeHurdle
 target22.type=InterfaceTarget
 target14.name=Hurdle2Factory
 target41.naviview.expanded=true
+=======
+editor.fx.0.width=800
+target39.name=Music
+target22.type=ClassTarget
+target14.name=NoLives
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 target31.naviview.expanded=true
 target21.naviview.expanded=true
 dependency29.from=AladdinWorld
@@ -624,8 +654,13 @@ target41.name=GrabberTemplate
 target20.width=90
 dependency56.from=Aladdin
 target37.height=50
+<<<<<<< HEAD
 >>>>>>>=0e65b994d841e185d73135f5789a4dd03f4d2c3a
 dependency31.from=AladdinWorld
+=======
+>>>>>>>=22440a2985ba535e054df40db2d0237a879d98bc
+dependency31.from=NoLives
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 target22.y=0
 target22.x=0
 target46.typeParameters=
@@ -668,9 +703,15 @@ dependency70.from=HurdleFactory
 target11.x=0
 dependency19.to=Start
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.y=25
 class.Grabber50.superclass=GrabberTemplate
 editor.fx.0.x=258
+=======
+editor.fx.0.y=59
+class.Grabber50.superclass=GrabberTemplate
+editor.fx.0.x=320
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 dependency8.to=Grabber
 target44.typeParameters=
 target26.showInterface=false
@@ -678,10 +719,14 @@ class.HurdleFactory.superclass=Creator
 target28.name=Grabber
 dependency66.to=SnakeHurdle
 class.Level2Hurdle.image=skull.png
+<<<<<<< HEAD
 target47.y=0
 mainWindow.height=1080
 target47.x=0
 target42.width=110
+=======
+mainWindow.height=829
+>>>>>>> 9eb9e2e6cf067d72e26cb41b480d93e7755af4a0
 dependency8.from=AladdinHero
 target28.height=50
 target40.showInterface=false

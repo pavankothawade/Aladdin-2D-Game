@@ -54,12 +54,13 @@ Level 1
 8.	As a hurdle in the game, I should be able to end the game as soon as the player lands on me.
 9.	As an actor in the game, I should be able to move using an input interface.
 10.	As a player of the game, I should ensure the audio is heard on event of game start, and when aladdin holds the Grabber and on event of Game Over/Level completion.
+11.	As a player in the game, I want to know my lives so that I can continue playing to reach to my goal.
+12.	As a player in the game, I want to grab apples so that I can destroy hurdles by throwing apples on them and also can increase my score points.
 
 Level 2
 1.  As a player in the game, I want to know my score so that I know how close I am to my goal.
 2.  As a player in the game, I want to kill the hurdles so that I can destroy the hurdle.
 3.  As a player in the game, I should hear music so that user enjoys the game experience.
 4.  As a player in the game, I should be able to grab bonus object so that my points get increased.
-
 
 
