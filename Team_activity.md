@@ -202,6 +202,12 @@ Amita Mathkar
 * Implemented Template design pattern.
 * Refracted destroying hurdles functionality implemented by one of the Team member to make the game more interesting.
 
+Shripal Modani
+* Modify the way scoreboard was implemented.
+* Modified the way points are calculated.
+* Added Game end.
+* Added Observer pattern in the game
+
 ### What is the team going to do next week?
 
 Pavan Kothawade
@@ -212,6 +218,10 @@ Amita Mathkar
 * To refactor the code so that it becomes reusable.
 * To add final graphics in game in order to make it more attractive and try to implement level 2
 
+Shripal Modani
+* Integrate Observer pattern with the game.
+* Write test cases for the functionalities of Aladdin
+
 ### What are the current blockers/challenges the team is facing?
 
 Pavan Kothawade
@@ -221,4 +231,5 @@ Amita Mathkar
 * Facing difficulty to manage with other projects.
 * Some functionalities takes more time to implement as Greenfoot is not much familiar IDE for me to use.
 
-
+Shripal Modani
+* Change of PC causing Greenfoot running smoothly.
