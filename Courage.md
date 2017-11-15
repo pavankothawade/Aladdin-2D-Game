@@ -29,3 +29,7 @@ In week 6, We need to show courage in further development of our project as we a
 Week: 7
 
 In week 7, We need to show courage in implementing design patterns in our game and need to refactor the code. We need to fix all the bugs that are present in our game.
+
+Week: 8
+
+In week 8, We need to show courage in developing level 2 of the game. As this is the last week so we need to speed up the process and complete level 2 in time. We will be implementing advance functionality in level 2 to make it more complex than level 1.

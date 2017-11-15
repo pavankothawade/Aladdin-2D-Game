@@ -18,6 +18,6 @@ public class Background2 extends Actor
     if( getX() < -getImage().getWidth()/2){
     setLocation( getWorld().getWidth() + 300, getY());
     }
-    setLocation(getX()-5, getY());
+    setLocation(getX()-8, getY());
     }
 }
