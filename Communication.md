@@ -43,3 +43,8 @@ Week #7
 * We decided the design patterns that we are going to incorporate in our game.
 * We had a meeting called to discuss the difficulties everyone was facing in game
 * We had to discuss the solutions to the problem as members were facing problems in doing particular tasks
+
+Week #8
+* We had called a meeting to discuss the progress of level2
+* One team member was facing a problem in level transition task which was assigned to him.
+* The problem was solved during the meeting.
