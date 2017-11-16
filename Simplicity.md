@@ -40,3 +40,14 @@ so that we have a running copy in Github all times.
 We have asked members to create separate folder, if they want to learn and experiment with design pattern
 they are going to implement in the Game, so that even if there is need for help, other members can see and
 add changes to their design patterns.
+
+Week 8:
+
+The task is decided to test the functionalities and fix defects in the game. 
+Since this is the last week and almost all features are developed as were planned, 
+we have decided that the team members can try new feature development on their local versions.
+But the priority is to test and ensure the functionalities developed by each member is working with the results
+as were decided. 
+There is also a cross check of functionalities of each method in the game by peers,
+so that everyone is aware of all things in game, as well as detect any bug which might have been missed.
+We want a working game with minimum of defects to be delivered for the live version.
