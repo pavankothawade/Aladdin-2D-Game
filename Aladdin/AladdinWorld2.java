@@ -24,6 +24,8 @@ public class AladdinWorld2 extends World
         addObject(img2, getWidth ()/2, getHeight()/2);
         img3 = new Background2();
         addObject(img3, getWidth() + getWidth()/2, getHeight()/2);
+                Counter c = new Counter();
+        addObject(c,200,11);
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
       
         Greenfoot.start();
@@ -62,6 +64,16 @@ public class AladdinWorld2 extends World
            addObject(P2.getActor(),900,Greenfoot.getRandomNumber(360));
            addObject(P2.getActor(),900,Greenfoot.getRandomNumber(100));
            
+        }
+        
+         if(counter %100 == 0)
+        {
+             
+           Creator G3 = new GrabberFactory(50);
+           
+            GreenfootImage img=G3.getActor().getImage();
+            //addObject(g1,getWidth(),50);
+            addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
         }
         
         
