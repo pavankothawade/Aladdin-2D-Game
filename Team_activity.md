@@ -257,3 +257,16 @@ Shripal Modani
 
 Vinit Singh
 * Level Transition.
+
+#Week-8
+### What did the team do the past week?
+Vinit Singh
+* Implemented Design Pattern.
+
+### What is the team going to do next week?
+Vinit Singh
+* Documentation for the Project Report.
+
+### What are the current blockers/challenges the team is facing?
+Vinit Singh
+* None
