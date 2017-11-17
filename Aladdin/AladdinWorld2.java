@@ -41,12 +41,26 @@ public class AladdinWorld2 extends World
         
        if(counter % 50 == 0)
         {
-           Level2Hurdle P1 = new Level2Hurdle();
-           
-           GreenfootImage image = P1.getImage();
+           //Level2Hurdle P1 = new Level2Hurdle();
+           //GreenfootImage image = P1.getActor().getImage();
+          
            //addObject(P1,getWidth(),getHeight()/2 + image.getHeight()/2);
-           addObject(P1,779,Greenfoot.getRandomNumber(360));
-           addObject(P1,779,Greenfoot.getRandomNumber(100));
+           //addObject(P1,779,Greenfoot.getRandomNumber(360));
+           //addObject(P1,779,Greenfoot.getRandomNumber(100));
+           
+              Creator B1 = new ParrotHurdleFactory();
+    
+           
+         GreenfootImage image1 = B1.getActor().getImage();
+           //addObject(P1,getWidth(),getHeight()/2 + image.getHeight()/2);
+           addObject(B1.getActor(),779,Greenfoot.getRandomNumber(360));
+           addObject(B1.getActor(),779,Greenfoot.getRandomNumber(100));
+             
+          // Hurdle2 P2 = new Hurdle2();
+          Creator P2 = new SnakeHurdleFactory();
+                          
+           addObject(P2.getActor(),900,Greenfoot.getRandomNumber(360));
+           addObject(P2.getActor(),900,Greenfoot.getRandomNumber(100));
            
         }
         
