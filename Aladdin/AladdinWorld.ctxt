@@ -8,4 +8,6 @@ comment2.params=
 comment2.target=Counter\ getCounter()
 comment3.params=
 comment3.target=void\ act()
-numComments=4
+comment4.params=
+comment4.target=void\ DispLevelQualified()
+numComments=5

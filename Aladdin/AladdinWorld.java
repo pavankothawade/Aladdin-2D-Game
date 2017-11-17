@@ -12,7 +12,7 @@ public class AladdinWorld extends World
      int counter = 0;
      private Background img0, img1;
       Counter counter1 = new Counter();
-      
+      GameOver gameOver = new GameOver();
     /**
      * Constructor for objects of class     AladdinWorld.
      * 
@@ -99,11 +99,20 @@ public class AladdinWorld extends World
             addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
         }
         
-        if(Counter.gameOver_counter >= 10)
+        if(Counter.gameOver_counter >= 5)
         {
-            Greenfoot.stop();
+            DispLevelQualified();
+            Greenfoot.delay(50);
+            
            Greenfoot.setWorld(new AladdinWorld2());         
         }
     }
+    
+     private void DispLevelQualified(){
+         gameOver.setImage(new GreenfootImage("level_complete.jpg"));        
+         addObject(gameOver, getWidth()/2, getHeight()/2);
+         AladdinHero.level_qualified = true;        
+         AladdinHero.music = false;
+        }
 }
 
