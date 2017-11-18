@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Background
-comment0.text=\n\ Background\ image\n\ \n\ @author\ (team\ inferno)\ \n\ @version\ (\ 0.7)\n
+comment0.text=\r\n\ Background\ image\r\n\ \r\n\ @author\ (team\ inferno)\ \r\n\ @version\ (\ 0.7)\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Background\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Background\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment2.params=
 comment2.target=void\ scroll()
 numComments=3
