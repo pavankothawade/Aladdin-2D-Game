@@ -263,10 +263,20 @@ Vinit Singh
 Vinit Singh
 * Implemented Design Pattern.
 
+Pavan Kothawade
+* Added hurdle functionality in level 2
+* Added scrolling background in level 2
+
 ### What is the team going to do next week?
 Vinit Singh
 * Documentation for the Project Report.
 
+Pavan Kothawade
+* Documentation and presentation of the project.
+
 ### What are the current blockers/challenges the team is facing?
 Vinit Singh
+* None
+
+Pavan Kothawade
 * None
