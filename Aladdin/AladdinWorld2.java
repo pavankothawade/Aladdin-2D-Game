@@ -14,7 +14,7 @@ public class AladdinWorld2 extends World
      * 
      */
     
-    int counter =0;
+      int counter =0;
      private Background2 img2, img3;
     Counter counter2 = new Counter();
     public AladdinWorld2()
@@ -30,6 +30,7 @@ public class AladdinWorld2 extends World
         AladdinHero a=new AladdinHero();
         addObject(a,200,200);
     }
+    
     
     public void act() {
     
@@ -66,7 +67,12 @@ public class AladdinWorld2 extends World
            addObject(P2.getActor(),900,Greenfoot.getRandomNumber(100));
            
         }
-       
+        if(counter% 250==0)
+        {
+            Creator J1 =new World2_hurdle1();
+           addObject(J1.getActor(),900,Greenfoot.getRandomNumber(360));
+        }
+        
         
          
    
