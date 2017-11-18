@@ -16,7 +16,33 @@ public class Title2 extends World
     public Title2()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.        
-        super(500, 700, 1);         
+        super(650, 350, 1, false); 
+
+        PlayAgain pg = new PlayAgain();           
+        NextLevel new_level = new NextLevel(); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        PlayAgain playagain2 = new PlayAgain();
+        addObject(playagain2,139,317);
+        NextLevel nextlevel = new NextLevel();
+        addObject(nextlevel,503,323);
+        nextlevel.setLocation(498,317);
+        
+        GreenfootSound myMusic=new GreenfootSound("level_complete.mp3");
+        myMusic.play();
+    }
+    
+    public void act()
+    {
+        AladdinHero.level_qualified = true;        
+        AladdinHero.music = false;        
         
     }
 }
