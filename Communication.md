@@ -48,3 +48,5 @@ Week #8
 * We had called a meeting to discuss the progress of level2
 * One team member was facing a problem in level transition task which was assigned to him.
 * The problem was solved during the meeting.
+* This meeting was called to decide the last changes and finish up that needs to be done in the game
+* Also being the last part of the game all the bugs in the game were fixed during the meeting.
