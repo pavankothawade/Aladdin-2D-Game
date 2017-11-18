@@ -73,6 +73,17 @@ public class AladdinWorld2 extends World
            addObject(J1.getActor(),900,Greenfoot.getRandomNumber(360));
         }
         
+         if(counter %100 == 0)
+        {
+             
+           Creator G3 = new GrabberFactory(50);
+           
+            GreenfootImage img=G3.getActor().getImage();
+            //addObject(g1,getWidth(),50);
+            addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
+        }
+       
+        
         
          
    
