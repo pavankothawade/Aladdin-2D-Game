@@ -22,26 +22,51 @@ public class Title extends World
     */
     
     
-    public Title()
+     public Title()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(1000, 700, 1); 
-        Greenfoot.start();
-        Start S1 = new Start();
-        addObject(S1,200,getHeight()/2-200);
-                showText("Grab 10 golden coins to complete level 1",500,630);
+        //super(1000, 700, 1); 
+        super(650, 350, 1, false); 
+
+        /*Start S1 = new Start();
+        addObject(S1, getWidth ()/2, getHeight()/2);
+        showText("Grab 10 golden coins to complete level 1",50,100);
         Instructions i1 = new Instructions();
-        addObject(i1,100,getHeight()/2);
+
+        addObject(i1, getWidth ()/4, getHeight()/4); */
         
+        showText("Grab 10 golden coins to Complete Level 1",325,325);
+
+        prepare();
     }
-    public void act()
+  public void act()
     {
-        //if (Greenfoot.isKeyDown("space")) Greenfoot.setWorld(new AladdinWorld());
-         //if(Greenfoot.isMouseClick(This())) Greenfoot.setWorld(new AladdinWorld());public void act() 
-         
-}
-//setImage(new GreenfootImage("Start Game : ", 22,Color.WHITE, Color.BLACK));
-    //new GreenfootImage("Score : ", 22, Color.WHITE, Color.BLACK);
+        if(Greenfoot.mouseClicked(this)){
+        Greenfoot.setWorld(new AladdinWorld());
+        }
 
+    }
 
+    private void prepare()
+    {
+        Start start = new Start();
+        addObject(start,315,304);
+        Instructions instructions = new Instructions();
+        addObject(instructions,562,93);
+        instructions.setLocation(587,65);
+        start.setLocation(340,61);
+        instructions.setLocation(75,177);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(340,61);
+        start.setLocation(531,63);
+        instructions.setLocation(58,79);
+        start.setLocation(351,58);
+        instructions.setLocation(55,55);
+    }
 }
+
