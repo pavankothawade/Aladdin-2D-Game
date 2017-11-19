@@ -263,6 +263,11 @@ Vinit Singh
 Vinit Singh
 * Implemented Design Pattern.
 
+Shripal Modani
+* Transition and integration of Level 1 & Level 2
+* Added Apple and shooting in Level 2
+* Debugging and implementation of Observer pattern.
+
 Pavan Kothawade
 * Added hurdle functionality in level 2
 * Added scrolling background in level 2
@@ -274,9 +279,15 @@ Vinit Singh
 Pavan Kothawade
 * Documentation and presentation of the project.
 
+Shripal Modani
+* Documentation and presentation of the project.
+
 ### What are the current blockers/challenges the team is facing?
 Vinit Singh
 * None
 
 Pavan Kothawade
+* None
+
+Shripal Modani	
 * None
