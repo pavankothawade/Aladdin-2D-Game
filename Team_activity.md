@@ -262,3 +262,40 @@ Shripal Modani
 
 Vinit Singh
 * Level Transition.
+<<<<<<< HEAD
+=======
+
+#Week-8
+### What did the team do the past week?
+Vinit Singh
+* Implemented Design Pattern.
+
+Shripal Modani
+* Transition and integration of Level 1 & Level 2
+* Added Apple and shooting in Level 2
+* Debugging and implementation of Observer pattern.
+
+Pavan Kothawade
+* Added hurdle functionality in level 2
+* Added scrolling background in level 2
+
+### What is the team going to do next week?
+Vinit Singh
+* Documentation for the Project Report.
+
+Pavan Kothawade
+* Documentation and presentation of the project.
+
+Shripal Modani
+* Documentation and presentation of the project.
+
+### What are the current blockers/challenges the team is facing?
+Vinit Singh
+* None
+
+Pavan Kothawade
+* None
+
+Shripal Modani	
+* None
+>>>>>>> 809bbedde793d45eaef4aca25bacb5951504173d

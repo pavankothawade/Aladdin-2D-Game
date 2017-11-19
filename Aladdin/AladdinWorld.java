@@ -13,6 +13,7 @@ public class AladdinWorld extends World
      private Background img0, img1;
       Counter counter1 = new Counter();
       GameOver gameOver = new GameOver();
+      Music m1=new Music();
     /**
      * Constructor for objects of class     AladdinWorld.
      * 
@@ -28,7 +29,7 @@ public class AladdinWorld extends World
         AladdinHero B1 = new AladdinHero();
         addObject(B1,100,getHeight()/2);
         addObject(counter1,130,20);
-        Music m1=new Music();
+        
         addObject(m1,getWidth()-20,20);
         Counter.setStartScore();
               
@@ -102,17 +103,11 @@ public class AladdinWorld extends World
         if(Counter.gameOver_counter >= 5)
         {
             DispLevelQualified();
-            Greenfoot.delay(50);
-            
-           Greenfoot.setWorld(new AladdinWorld2());         
         }
     }
     
      private void DispLevelQualified(){
-         gameOver.setImage(new GreenfootImage("level_complete.jpg"));        
-         addObject(gameOver, getWidth()/2, getHeight()/2);
-         AladdinHero.level_qualified = true;        
-         AladdinHero.music = false;
+        Greenfoot.setWorld(new Title2());
         }
 }
 

@@ -29,6 +29,10 @@ public class AladdinWorld2 extends World
         Greenfoot.start();
         AladdinHero a=new AladdinHero();
         addObject(a,200,200);
+        
+        
+        GreenfootSound myMusic=new GreenfootSound("background.mp3");
+        myMusic.play();
     }
     
     

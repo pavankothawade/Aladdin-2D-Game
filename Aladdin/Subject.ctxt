@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=Subject
 comment0.text=\r\n\ Write\ a\ description\ of\ class\ Subject\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=obj
-comment1.target=void\ attach(Observer)
+comment1.params=o
+comment1.target=void\ registerObserver(Observer)
 comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-comment2.params=obj
-comment2.target=void\ detach(Observer)
-comment3.params=score
-comment3.target=void\ notifyObservers(int)
+comment2.params=o
+comment2.target=void\ unregisterObserver(Observer)
+comment3.params=
+comment3.target=void\ notifyObservers()
 numComments=4

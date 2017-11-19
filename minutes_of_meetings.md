@@ -142,11 +142,25 @@ Each team member is expected to make changes in code according to respective des
     Scrum master: Pavan
     Product Owner: Amita
 
+Week 8
 
+* Attendees Present:  
+Shripal Modani
+Pavan Kothawade
+Amita Mathkar
+Vinit Singh
+Pritam Meher
 
+As this is our last week, so we discussed the plan we need to implement in week 8. We divided all the responsibility among team members. We have planned to include hurdles in level 2 and need to plan on the functionality of winning the game. We have planned to include Jaffer which is the villain of our game. And player will win the game only after killing the Jaffer.  
 
+* Roles for this week:
+    Scrum master: Pavan
+    Product Owner: Shripal
 
-
+This been the last week, we had 3 meetings this week. The overall discussion is about finishing the game, 
+fixing any minor game which can be identified through testing by peers in the team.
+We also also be developing the class diagram for each design pattern and all action items
+in product backlog, which need to be completed(if any).  
 
 
 
