@@ -157,7 +157,10 @@ As this is our last week, so we discussed the plan we need to implement in week 
     Scrum master: Pavan
     Product Owner: Shripal
 
-
+This been the last week, we had 3 meetings this week. The overall discussion is about finishing the game, 
+fixing any minor game which can be identified through testing by peers in the team.
+We also also be developing the class diagram for each design pattern and all action items
+in product backlog, which need to be completed(if any).  
 
 
 
