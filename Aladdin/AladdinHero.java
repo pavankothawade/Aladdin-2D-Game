@@ -17,15 +17,24 @@ public class AladdinHero extends Actor
     Apple apple= new Apple();
     GreenfootImage i = getImage();
     GameOver gameOver = new GameOver();
+    
+        Score_increment si = new Score_increment();
+   // Subject s = new Subject();
+   ScoreData s = new ScoreData();
+   Lives_Checker l = new Lives_Checker();
+
     public AladdinHero(){
         hasLives= new HasLives(this);
         noLives= new NoLives(this);
         aladdinstate= hasLives;
-        
+        s.registerObserver(l);
+        s.registerObserver(si);
         if(noOfLives == 0){
             aladdinstate= noLives;
         }
     }
+    
+
     void setAladdinState(AladdinState newAladdinState){
         aladdinstate= newAladdinState;
     }
@@ -39,6 +48,8 @@ public class AladdinHero extends Actor
         return noLives;
         
     } 
+
+    
     
     public void act() 
     {
@@ -48,7 +59,9 @@ public class AladdinHero extends Actor
          
          if(counter %25 == 0)
            {
-             Counter.addScore();
+             //si.update(Counter.score, lives);
+             s.dataChanged();
+            // Counter.addScore();
            }
          
          if( getOneIntersectingObject(ParrotHurdle.class) != null){
