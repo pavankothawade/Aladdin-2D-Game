@@ -201,6 +201,8 @@ Vinit Singh
 
 #Week-7
 ### What did the team do the past week?
+Pritam Meher 
+* Implemented Command design pattern.
 
 Pavan Kothawade
 * Created issue for destroying hurdles functionality.
@@ -227,7 +229,9 @@ Vinit Singh
 * Designed USER STORIES for Level2.
 
 ### What is the team going to do next week?
-
+Pritam Meher 
+* To refactor the code
+* To add functionality as well
 Pavan Kothawade
 * To refactor the code in depth
 * To add advance functionality in game and try to implement level 2
@@ -244,7 +248,8 @@ Vinit Singh
 * Class diagram for Level1.
 
 ### What are the current blockers/challenges the team is facing?
-
+Pritam Meher
+* Hurdle Implementation in level 2
 Pavan Kothawade
 * Not getting enough time as there are other projects as well.
 
@@ -257,16 +262,3 @@ Shripal Modani
 
 Vinit Singh
 * Level Transition.
-
-#Week-8
-### What did the team do the past week?
-Vinit Singh
-* Implemented Design Pattern.
-
-### What is the team going to do next week?
-Vinit Singh
-* Documentation for the Project Report.
-
-### What are the current blockers/challenges the team is facing?
-Vinit Singh
-* None
