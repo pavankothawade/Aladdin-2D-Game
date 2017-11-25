@@ -36,7 +36,7 @@ class ScoreData implements Subject
               observerList.iterator(); it.hasNext();)
         {
             Observer o = it.next();
-            o.update(score,lives);
+            o.update();
         }
     }
  

@@ -1,6 +1,7 @@
 /**
- * Write a description of class Lives_Checker here.
  * 
+ * logic of lives checker in future scope
+ * Write a description of class Lives_Checker here.
  * @author (your name) 
  * @version (a version number or a date)
  */
@@ -9,6 +10,7 @@ public class Lives_Checker implements Observer
 {
     // instance variables - replace the example below with your own
     private int x;
+    int live = 0;
 
     /**
      * Constructor for objects of class Lives_Checker
@@ -21,7 +23,8 @@ public class Lives_Checker implements Observer
      * if no lives are remaining the game stops
      */
      Counter c1=  new Counter();
-    public void update(int score,int live)
+
+    public void update()
     {
         if(live < 0)
 		{

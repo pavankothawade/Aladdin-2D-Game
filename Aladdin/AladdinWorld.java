@@ -100,7 +100,7 @@ public class AladdinWorld extends World
             addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
         }
         
-        if(Counter.gameOver_counter >= 5)
+        if(Counter.gameOver_counter >= 10)
         {
             DispLevelQualified();
         }
