@@ -104,6 +104,24 @@ public class AladdinHero extends Actor
                 Greenfoot.delay(5);
             }
         }
+        if( getOneIntersectingObject(NewHurdle1.class) != null){
+            if(lives<=0)
+            {
+             DispGameover();
+            }
+            else
+            {
+                GreenfootSound myMusic=new GreenfootSound("smb_stomp.wav");
+                myMusic.play();
+                lives=lives-1;
+                getWorld().removeObject(getOneIntersectingObject(ParrotHurdle.class));
+                int t = i.getTransparency();
+                i.setTransparency(0);
+                Greenfoot.delay(5);
+                i.setTransparency(t);
+                Greenfoot.delay(5);
+            }
+         }
         setLocation(getX(),(int)(getY()+dy));
         
         if(Greenfoot.isKeyDown("up")== true)

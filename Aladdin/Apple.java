@@ -13,22 +13,44 @@ public class Apple extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      *
      */
-  
+        GameOver gameOver = new GameOver();
+    static int x =  0;
+    //  public static boolean music = true;
+    public static boolean level_qualified = false;
+    public static boolean isPaused = false;
     public void act() 
     {
         
         move(10);
+        Actor NewHurdle1=getOneIntersectingObject(NewHurdle1.class);
         Actor ParrotHurdle= getOneIntersectingObject(ParrotHurdle.class);
         Actor SnakeHurdle= getOneIntersectingObject(SnakeHurdle.class);
         Actor Apple= getOneObjectAtOffset(0, 0, Apple.class);
         if(ParrotHurdle != null || SnakeHurdle != null || Apple!= null)
         {
             World myWorld= getWorld();
+           // myWorld.removeObject(NewHurdle1);
             myWorld.removeObject(ParrotHurdle);
             myWorld.removeObject(SnakeHurdle);
             myWorld.removeObject(Apple);   
         }
-    
         
-    }    
-}
+        if(NewHurdle1!=null)
+        {
+            World myWorld= getWorld();
+            
+                myWorld.removeObject(NewHurdle1);
+                gameOver.setImage(new GreenfootImage("congo.jpg"));
+         
+         getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+         level_qualified = true;
+         
+         //music = false;
+         Greenfoot.stop();
+         
+            }
+           
+
+        }
+        
+    }
