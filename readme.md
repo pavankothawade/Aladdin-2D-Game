@@ -20,4 +20,4 @@ Link to Cumulative Flow Diagram (Team's Google Sheet): https://goo.gl/eU23hG
 
 Link to Prototype of the game: https://goo.gl/R6pH3r
 
-Link To Scrum Burndown Chart: https://goo.gl/NYRJfS
+Link To Scrum Burndown Chart: http://bit.ly/2A5l6Hf
