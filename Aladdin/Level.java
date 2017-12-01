@@ -23,11 +23,9 @@ public class Level extends World
     switch (level)
     {
         case 1:
-        System.out.println("Level1");
         break;
          
         case 2:
-        System.out.println("Level2");
         break;
          
         //and so on

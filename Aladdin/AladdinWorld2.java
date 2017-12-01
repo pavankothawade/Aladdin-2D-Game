@@ -8,7 +8,7 @@ import java.awt.*;
  */
 public class AladdinWorld2 extends World
 {
-
+    Music m1=new Music();
     /**
      * Constructor for objects of class AladdinWorld2.
      * 
@@ -30,9 +30,12 @@ public class AladdinWorld2 extends World
         AladdinHero a=new AladdinHero();
         addObject(a,200,200);
         
-        
-        GreenfootSound myMusic=new GreenfootSound("background.mp3");
-        myMusic.play();
+        m1.getMyMusic().stop();
+        m1=new Music("background.mp3");
+         m1.getMyMusic().play();
+         AladdinHero.level_qualified = false;    
+                 AladdinHero.game_over = false; 
+        AladdinHero.music = true; 
     }
     
     

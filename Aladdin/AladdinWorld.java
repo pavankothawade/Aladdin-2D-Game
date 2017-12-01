@@ -32,7 +32,12 @@ public class AladdinWorld extends World
         
         addObject(m1,getWidth()-20,20);
         Counter.setStartScore();
-              
+        
+        m1.getMyMusic().stop();
+        m1=new Music("background.mp3");
+        m1.getMyMusic().play();
+                AladdinHero.level_qualified = false; 
+                        AladdinHero.game_over = false; 
 
     }
    
@@ -102,6 +107,9 @@ public class AladdinWorld extends World
         
         if(Counter.gameOver_counter >= 10)
         {
+             m1.getMyMusic().pause();
+            AladdinHero.level_qualified = true;        
+           AladdinHero.music = false;
             DispLevelQualified();
         }
     }

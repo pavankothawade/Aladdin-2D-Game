@@ -17,6 +17,8 @@ public class PlayAgain extends Actor
         // Add your action code here.
 		 if (Greenfoot.mouseClicked(this)) {
                      Greenfoot.setWorld(new AladdinWorld());
+                             AladdinHero.level_qualified = false; 
+                             AladdinHero.game_over = false; 
     }
 }
 }

@@ -8,6 +8,7 @@ public class AladdinHero extends Actor
     public static int lives=3;
     public static boolean music = true;
     public static boolean level_qualified = false;
+     public static boolean game_over = false;
     public static boolean isPaused = false;
     AladdinState hasLives;
     AladdinState noLives;
@@ -208,11 +209,12 @@ public class AladdinHero extends Actor
        
 
         
-         getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
+         //getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          music = false;
-         
-         Greenfoot.stop();
-                  
+         level_qualified = false;
+                  game_over=true;
+         //Greenfoot.stop();
+         Greenfoot.setWorld(new GameOver1());       
          
     }
     
@@ -223,7 +225,7 @@ public class AladdinHero extends Actor
          
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          level_qualified = true;
-         
+                  game_over=false;
          music = false;
          
          
