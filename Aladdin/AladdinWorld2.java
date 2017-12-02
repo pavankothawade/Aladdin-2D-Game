@@ -75,7 +75,7 @@ public class AladdinWorld2 extends World
         if(counter% 250==0)
         {
             Creator J1 =new World2_hurdle1();
-           addObject(J1.getActor(),900,Greenfoot.getRandomNumber(360));
+           addObject(J1.getActor(),800,200);
         }
         
          if(counter %100 == 0)

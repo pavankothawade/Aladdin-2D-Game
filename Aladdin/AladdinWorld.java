@@ -102,7 +102,7 @@ public class AladdinWorld extends World
            
             GreenfootImage img=G3.getActor().getImage();
             //addObject(g1,getWidth(),50);
-            addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
+            addObject(G3.getActor(),700,Greenfoot.getRandomNumber(300));
         }
         
         if(counter %150 == 0)
