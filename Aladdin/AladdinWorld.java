@@ -105,6 +105,16 @@ public class AladdinWorld extends World
             addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
         }
         
+        if(counter %150 == 0)
+        {
+             
+           Creator G3 = new GrabberFactory(100);
+           
+            GreenfootImage img=G3.getActor().getImage();
+            //addObject(g1,getWidth(),50);
+            addObject(G3.getActor(),700,Greenfoot.getRandomNumber(100));
+        }
+        
         if(Counter.gameOver_counter >= 10)
         {
              m1.getMyMusic().pause();

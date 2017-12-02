@@ -168,6 +168,7 @@ public class AladdinHero extends Actor
              myMusic.play();
             }
             b1.incrementScore();
+            
             //Counter.bonusPoints(50);
              getWorld().removeObject(getOneIntersectingObject(Grabber50.class));
              //myMusic.stop();
@@ -193,25 +194,13 @@ public class AladdinHero extends Actor
            Greenfoot.stop();  // Pause the game
         } 
         
-         // if( Counter.gameOver_counter==10){
-         //     DispLevelQualified();
-        //}
         dy = dy+g;
         
-        //if(Counter.gameOver_counter >= 1)
-        //{
-          //  Greenfoot.stop();
-         //  Greenfoot.setWorld(new AladdinWorld2());         
-        //}
     }  
     
     
     
     private void DispGameover(){      
-       
-
-        
-         //getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          music = false;
          level_qualified = false;
                   game_over=true;
@@ -229,11 +218,6 @@ public class AladdinHero extends Actor
          level_qualified = true;
                   game_over=false;
          music = false;
-         
-         
-         
-        
-         
          
         }
     

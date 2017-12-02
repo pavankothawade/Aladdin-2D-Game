@@ -7,13 +7,7 @@ public class Grabber100 extends GrabberTemplate
         image.scale(image.getWidth() - 40, image.getHeight() - 40);
         setImage(image);
     }
-    int Grab_Speed = -8;
-   
-    public void act() 
-    {
-         setLocation(getX() + Grab_Speed, getY());
-    }      
-    
+
     public void incrementScore()
     {
         Counter.bonusPoints(100);
