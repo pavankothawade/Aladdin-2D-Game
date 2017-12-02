@@ -28,7 +28,7 @@ public class AladdinWorld extends World
         addObject(img1, getWidth() + getWidth()/2, getHeight()/2);
         AladdinHero B1 = new AladdinHero();
         addObject(B1,100,getHeight()/2);
-        addObject(counter1,130,20);
+        addObject(counter1,220,20);
         
         addObject(m1,getWidth()-20,20);
         Counter.setStartScore();

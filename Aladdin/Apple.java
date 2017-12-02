@@ -14,6 +14,7 @@ public class Apple extends Actor
      *
      */
         GameOver gameOver = new GameOver();
+        Music m1=new Music();
     static int x =  0;
     //  public static boolean music = true;
     public static boolean level_qualified = false;
@@ -40,13 +41,20 @@ public class Apple extends Actor
             World myWorld= getWorld();
             
                 myWorld.removeObject(NewHurdle1);
-                gameOver.setImage(new GreenfootImage("congo.jpg"));
+                
+                m1.getMyMusic().stop();
+                m1=new Music("level_complete.mp3");
+         m1.getMyMusic().play();
+                
+                gameOver.setImage(new GreenfootImage("Aladdin-2.jpg"));
          
          getWorld().addObject(gameOver, getWorld().getWidth()/2, getWorld().getHeight()/2);
          level_qualified = true;
          
+         //Greenfoot.setWorld(new AladdinWorld());
          //music = false;
          Greenfoot.stop();
+         Greenfoot.setWorld(new Title());
          
             }
            

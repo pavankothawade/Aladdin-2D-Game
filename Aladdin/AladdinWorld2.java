@@ -25,7 +25,7 @@ public class AladdinWorld2 extends World
         img3 = new Background2();
         addObject(img3, getWidth() + getWidth()/2, getHeight()/2);
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-      addObject(counter2,130,20);
+      addObject(counter2,220,20);
         Greenfoot.start();
         AladdinHero a=new AladdinHero();
         addObject(a,200,200);
