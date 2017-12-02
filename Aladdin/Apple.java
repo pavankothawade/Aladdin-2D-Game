@@ -54,7 +54,7 @@ public class Apple extends Actor
          //Greenfoot.setWorld(new AladdinWorld());
          //music = false;
          Greenfoot.stop();
-         Greenfoot.setWorld(new Title());
+        
          
             }
            
