@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class SnakeHurdle extends Hurdles 
 {
-    int Hur_Speed2 = -8;
+    int Hur_Speed2 = -12;
     int Hur_Speed3 = -5;
     public SnakeHurdle(){
     
