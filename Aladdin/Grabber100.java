@@ -1,11 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Grabber100 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Grabber100 extends GrabberTemplate
 {
     public Grabber100(){
@@ -17,7 +11,11 @@ public class Grabber100 extends GrabberTemplate
    
     public void act() 
     {
-        // Add your action code here.
          setLocation(getX() + Grab_Speed, getY());
-    }   
+    }      
+    
+    public void incrementScore()
+    {
+        Counter.bonusPoints(100);
+    }
 }

@@ -51,11 +51,14 @@ public class Title extends World
     {
         Start start = new Start();
         addObject(start,315,304);
+        ButtonPlay button = new ButtonPlay(start);
+        button.execute();
+        
         Instructions instructions = new Instructions();
         addObject(instructions,562,93);
-        instructions.setLocation(587,65);
-        start.setLocation(340,61);
-        instructions.setLocation(75,177);
+        ButtonHelp buttonhelp = new ButtonHelp(instructions);
+        buttonhelp.execute();
+        
         start.setLocation(340,61);
         start.setLocation(340,61);
         start.setLocation(340,61);

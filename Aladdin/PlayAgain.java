@@ -19,6 +19,7 @@ public class PlayAgain extends Actor
                      Greenfoot.setWorld(new AladdinWorld());
                              AladdinHero.level_qualified = false; 
                              AladdinHero.game_over = false; 
+                             AladdinHero.music = true;
     }
 }
 }

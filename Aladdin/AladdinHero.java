@@ -161,25 +161,27 @@ public class AladdinHero extends Actor
         }
         
         if(getOneIntersectingObject(Grabber50.class) != null){
-             
+             Grabber50 b1=new Grabber50();
              if( Music.isMusicPlaying==true)
               {
              GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
              myMusic.play();
             }
-             Counter.bonusPoints(50);
+            b1.incrementScore();
+            //Counter.bonusPoints(50);
              getWorld().removeObject(getOneIntersectingObject(Grabber50.class));
              //myMusic.stop();
         }
         
         if(getOneIntersectingObject(Grabber100.class) != null){
-             
+             Grabber100 b1=new Grabber100();
              if( Music.isMusicPlaying==true)
               {
              GreenfootSound myMusic=new GreenfootSound("smb_fireball.wav");
              myMusic.play();
             }
-             Counter.bonusPoints(100);
+            b1.incrementScore();
+            // Counter.bonusPoints(100);
              getWorld().removeObject(getOneIntersectingObject(Grabber100.class));
              //myMusic.stop();
         }

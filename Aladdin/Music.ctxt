@@ -1,13 +1,15 @@
 #BlueJ class context
 comment0.target=Music
-comment0.text=\n\ Write\ a\ description\ of\ class\ Music\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Music\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=
-comment1.target=Music()
-comment2.params=filename
-comment2.target=Music(java.lang.String)
-comment3.params=
-comment3.target=greenfoot.GreenfootSound\ getMyMusic()
+comment1.target=void\ stopBackgroundMusic()
+comment2.params=
+comment2.target=Music()
+comment3.params=filename
+comment3.target=Music(java.lang.String)
 comment4.params=
-comment4.target=void\ act()
-comment4.text=\n\ Act\ -\ do\ whatever\ the\ Music\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
-numComments=5
+comment4.target=greenfoot.GreenfootSound\ getMyMusic()
+comment5.params=
+comment5.target=void\ act()
+comment5.text=\r\n\ Act\ -\ do\ whatever\ the\ Music\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=6

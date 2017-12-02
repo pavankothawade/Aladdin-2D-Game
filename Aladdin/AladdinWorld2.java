@@ -44,8 +44,6 @@ public class AladdinWorld2 extends World
         counter ++;
         img2.scroll();
         img3.scroll();
-       
-      
         
        if(counter % 50 == 0)
         {

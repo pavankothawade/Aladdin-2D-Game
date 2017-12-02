@@ -10,16 +10,22 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Music extends Actor
 {
     public static boolean isMusicPlaying=true;
-    GreenfootSound myMusic=new GreenfootSound("background.mp3");
+    private static GreenfootSound myMusic=new GreenfootSound("background.mp3");
     boolean firstTurn=true;
     
+    public static void stopBackgroundMusic()
+{
+    myMusic.stop();
+}
+
     public Music()
     {
-        
+        //super(650, 350, 1, false); 
     }
     
     public Music(String filename)
     {
+        //super(650, 350, 1, false); 
         myMusic=new GreenfootSound(filename);
     }
 
@@ -37,7 +43,7 @@ public class Music extends Actor
         // Add your action code here.
         if(firstTurn)
         {
-            myMusic.playLoop();
+            myMusic.play();
             firstTurn=false;
         }
         
@@ -86,7 +92,7 @@ public class Music extends Actor
             else
             {
                 isMusicPlaying=true;
-                myMusic.playLoop();
+                myMusic.play();
                 setImage("unmute.png");
             }
         }
