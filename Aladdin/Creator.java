@@ -1,5 +1,5 @@
 import greenfoot.*;
 
-public interface  Creator{
-    public  Actor getActor();
+public abstract class Creator {
+    public  abstract Actor getActor();
 }

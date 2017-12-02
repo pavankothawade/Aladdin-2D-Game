@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-public class GrabberFactory implements Creator   
+public class GrabberFactory extends Creator   
 {
     private String type="";
     public GrabberFactory()
@@ -26,9 +26,7 @@ public class GrabberFactory implements Creator
          return new Grabber100();
          else
          return new Grabber();
-         
-         
-    //return new Grabber();
+ 
     }
 }
 

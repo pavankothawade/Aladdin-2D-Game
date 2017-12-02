@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-public class SnakeHurdleFactory implements Creator   
+public class SnakeHurdleFactory extends Creator   
 {
      public Actor getActor(){
     return new SnakeHurdle();

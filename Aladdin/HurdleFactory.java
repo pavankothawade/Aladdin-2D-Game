@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-public class HurdleFactory implements Creator   
+public class HurdleFactory extends Creator   
 {
      public Actor getActor(){
     return new Hurdle();
